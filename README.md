@@ -21,15 +21,15 @@
        
   - <b>Calendar class ID?</b> 
   
-    0 : Era
-    1 : Year
-    2 : Month
-    3 : Week-of-year
-    4 : Week-of-month
-    5 : Date/day-of-month
-    6 : Day-of-year
-    7 : Day-of-week
-    8 : Day-of-week-in-month
-    9 : Am/Pm selector
+    0 : Era<br>
+    1 : Year<br>
+    2 : Month<br>
+    3 : Week-of-year<br>
+    4 : Week-of-month<br>
+    5 : Date/day-of-month<br>
+    6 : Day-of-year<br>
+    7 : Day-of-week<br>
+    8 : Day-of-week-in-month<br>
+    9 : Am/Pm selector<br>
    10 : Hour
   
