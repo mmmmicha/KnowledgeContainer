@@ -19,7 +19,7 @@
     3. 레이어 저장방식이 유용함
        - 버젼업이 되거나 파일이 추가될 경우 전체 파일을 다시 배포하는 것이 아니라 추가된 파일만 새로운 layer 로 추가되는 형식.
        
-  - <b>Calendar class ID?</b> 
+  - <b>Calendar class constant ID?</b> 
   
     0 : Era<br>
     1 : Year<br>
