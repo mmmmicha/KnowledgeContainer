@@ -33,3 +33,16 @@
     9 : Am/Pm selector<br>
    10 : Hour
   
+ - <b>Eclipse에서 search 기능</b>
+ 
+   Search>search>File 또는 java 등등 원하는 category로 찾을 수 있음.
+   
+ - <b>Map 과 List 의 차이</b>
+ 
+   1. List
+      - 장점 : 데이터 저장속도가 빠름, 데이터를 순차적으로 저장함
+      - 단점 : 원하는 index에 삽입/삭제 시 비효율(해당 index 아래의 데이터들을 배열에 copy 후 다시 붙여넣어야 함)
+   
+   2. Map
+      - 장점 : 특정데이터를 search 하기에 매우 유리(List 보다 삽입/삭제 에서도 빠름)
+      - 단점 : List 보다 데이터 저장속도가 
