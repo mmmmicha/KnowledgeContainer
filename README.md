@@ -80,3 +80,14 @@
      4. 서버(노드)를 추가하면, 선형적인 기능확장을 할 수 있음.
      5. 다수의 클러스트를 하나의 스토리지처럼 사용할 수 있음.
      
+ - <b>웹스퀘어5(Websquare5) 란?</b>    
+
+   - 국내 최초의 WYSIWYG 개발 도구가 포함된 HTML5 웹 표준 UI 플랫폼으로 최신의 선진 신기술과 개념, 다양한 구축 경험과 방법론을 집대성하여 HTML5를 완벽히 지원할 수 있는 HTML5 웹표준 UI 플랫폼. 
+   - No Active X, No Runtime, Only Standard 를 가능케 함.
+   
+   - 특징
+     1. Open Architecture
+     2. HTML5 Standards 적용
+     3. Adaptive Web Component 제공
+     4. One Source Multi Use 지원
+     5. 통합개발도구 지원
