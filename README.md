@@ -91,3 +91,9 @@
      3. Adaptive Web Component 제공
      4. One Source Multi Use 지원
      5. 통합개발도구 지원
+
+ - <b>stream 이란?</b>
+ 
+   - Input/Output stream 이 있으며, 단방향이다.
+   - 바이트기반 스트림(stream) 과 문자기반 스트림(Reader/Writer)으로 나뉜다.
+   - 기본적으로 스트림은 바이트기반이며, 바이트 기반을 문자기반으로 변환할 수 있다(인코딩방식을 적용해서 변환)
