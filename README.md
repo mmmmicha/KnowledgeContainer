@@ -122,5 +122,5 @@
    - 객체의 비교 방법은 여러가지가 있다.
    - ==, equals(), hashcode(), instancof() 등...
    - == 과 equals() 는 아예 같은 instance 일 경우 true, 다른 경우 false
-   - hashcode(), toString() 메소드 역시 아예 같은 instance 일 경우 똑같은 값을 return, 다른 경우 다른 값을 return 하는데 아주 적은 확률로 같은 값이 나올 수도 있다.
+   - hashcode(), toString() 메소드 역시 아예 같은 instance 일 경우 똑같은 값을 return, 다른 경우 다른 값을 return 하는데 아주 적은 확률로 같은 값이 나올 수도 있다. (중요!! 그렇다고 hashcode가 같다고해서 equals() 와 == 에서 true 가 나오는건 아니다. 내부 해싱알고리즘..)
    
