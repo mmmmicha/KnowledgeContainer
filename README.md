@@ -97,3 +97,30 @@
    - Input/Output stream 이 있으며, 단방향이다.
    - 바이트기반 스트림(stream) 과 문자기반 스트림(Reader/Writer)으로 나뉜다.
    - 기본적으로 스트림은 바이트기반이며, 바이트 기반을 문자기반으로 변환할 수 있다(인코딩방식을 적용해서 변환)
+   
+ - <b>Set 이란?</b>
+ 
+   - 자료구조의 일종.
+   - List 와 달리 index없이 집합의 개념으로 존재하며, 중복을 허용하지 않는다.
+   - 동기화를 허용하지 않는다.
+   
+   - 종류
+     - HashSet : set 중에 등록되는 순서가 가장 빠르다. 순서가 없다.
+     - TreeSet : 오름차순이 적용된 set 이다.
+     - LinkedHashSet : add된 순서대로 출력이 나타나는 set 이다.
+     
+ - <b>hashCode() 이란?</b>
+ 
+   - 모든 클래스의 모체가 되는 Object 클래스의 메소드 중 하나.
+   - 객체의 hashcode를 반환해주는 메소드
+     (hashcode 는 가상메모리의 주소가 아니라, 객체들을 구별하기위한 구별자)
+   - 중요! 객체가 같으면 hashcode 가 같지만, hashcode가 같다고 해서 객체가 같은 것은 아니다.
+   - hashcode() return 값을 16진수로 바꾸게 되면 toString() 메소드를 사용했을때 나오는 return 값에서 "클래스명@(여기)" 에 해당하는 값과 같다. 
+   
+ - <b>객체비교</b>
+ 
+   - 객체의 비교 방법은 여러가지가 있다.
+   - ==, equals(), hashcode(), instancof() 등...
+   - == 과 equals() 는 아예 같은 instance 일 경우 true, 다른 경우 false
+   - hashcode(), toString() 메소드 역시 아예 같은 instance 일 경우 똑같은 값을 return, 다른 경우 다른 값을 return 하는데 아주 적은 확률로 같은 값이 나올 수도 있다.
+   
