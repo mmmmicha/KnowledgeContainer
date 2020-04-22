@@ -106,10 +106,14 @@
         - Java의 Map 과 흡사
      
      2. DataMap
-        - Key와 Value로 이루어진 데이터의 객체
+        - Key와 Value로 이루어진 단일 데이터의 객체
         - Java의 Map 과 흡사
         
-     3. LinkedDataList
+     3. DataList
+        - List 형태의 다건의 데이터로 구성된 객체
+        - Java의 List 와 흡사
+        
+     4. LinkedDataList
         - DataList 객체를 참고하여 Filter, Sort를 적용한 객체
         - 기준되는 DataList 객체가 꼭 필요
 
