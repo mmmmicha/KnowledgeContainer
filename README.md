@@ -10,6 +10,8 @@
     
   - <b>docker란?</b>
   
+    wiki : https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BB%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)
+  
     1. Container 관리 플랫폼
 
     2. Container 와 image 가 매우 중요
@@ -69,6 +71,8 @@
       - static 블럭 > 인스턴스 블럭 > 생성자
 
  - <b>하둡(Hadoop) 이란?</b>
+    
+   wiki : https://ko.wikipedia.org/wiki/%EC%95%84%ED%8C%8C%EC%B9%98_%ED%95%98%EB%91%A1
  
    - 대용량 데이터를 분산처리할 수 있는 자바 기반의 오픈소스 프레임워크이다.
    - 분산파일시스템(HDFS) + 분산처리시스템(MapReduce)
