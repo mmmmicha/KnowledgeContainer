@@ -167,3 +167,10 @@
 
  - <b>@RestController 란?</b>
    - @Controller 는 view 객체를 리턴할 수 있는 기능을 제공해주지만, @RestController는 문자열과 JSON 등을 전송할 수 있는 기능을 추가제공한다.
+   
+ - <b>@Service 란?</b>
+   - @Service 는 Controller 와 Repository 를 연결해주는 역할로, SpringMVC에 특화된 어노테이션이다.
+   
+ - <b>String.equals(null) 과 NULL.equals(String) 의 차이?</b>
+   - 후자의 경우 NullpointerException 이 발생한다. 주의할 것.
+   
