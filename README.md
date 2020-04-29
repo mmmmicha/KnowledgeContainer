@@ -23,8 +23,8 @@
        
   - <b>쿠버네티스(Kubernetes) vs 도커(Docker)</b>
   
-    keyword : 컨테이너와 오케스트레이션의 이해
-    link : http://www.itworld.co.kr/news/135282
+    - keyword : 컨테이너와 오케스트레이션의 이해
+    - link : http://www.itworld.co.kr/news/135282
        
   - <b>Calendar class constant ID?</b> 
   
