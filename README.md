@@ -183,3 +183,8 @@
  - <b>String.equals(null) 과 NULL.equals(String) 의 차이?</b>
    - 후자의 경우 NullpointerException 이 발생한다. 주의할 것.
    
+ - <b>.properties 확장자</b>
+   - link : https://ko.wikipedia.org/wiki/.properties
+   - 용도 : Spring에서 이를 유용하게 사용할 수 있다.
+
+   
