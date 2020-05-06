@@ -188,6 +188,6 @@
    - 용도 : Spring에서 이를 유용하게 사용할 수 있다.
 
  - <b>Context path, root란?</b>
- > - Context Path : 프로젝트 명을 의미하며 url의 호스트, 포트명 다음에 나온다.<br> 
- > - Context root : Content directory의 경로. 해당 경로에 메타 정보와 웹 정보를 관리하는 META-INF와 WEB-INF 파일이 자동생성되며 JSP파일은 여기 하위에 저장되어야 경로를 찾을 수 있다.
+  > - Context Path : 프로젝트 명을 의미하며 url의 호스트, 포트명 다음에 나온다.<br> 
+  > - Context root : Content directory의 경로. 해당 경로에 메타 정보와 웹 정보를 관리하는 META-INF와 WEB-INF 파일이 자동생성되며 JSP파일은 여기 하위에 저장되어야 경로를 찾을 수 있다.
    
