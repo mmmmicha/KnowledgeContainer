@@ -8,16 +8,15 @@
     
   - <b>docker란?</b>
   
-    wiki : https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BB%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)
+    > - wiki : https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BB%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)
   
-    1. Container 관리 플랫폼
+    > 1. Container 관리 플랫폼
 
-    2. Container 와 image 가 매우 중요
-       image : Container 에 대한 A to Z 를 모두 가지고 있는 파일
-       - 이 때문에 다른 라이브러리가 필요없음.
-
-    3. 레이어 저장방식이 유용함
-       - 버젼업이 되거나 파일이 추가될 경우 전체 파일을 다시 배포하는 것이 아니라 추가된 파일만 새로운 layer 로 추가되는 형식.
+    > 2. Container 와 image 가 매우 중요
+         - image : Container 에 대한 A to Z 를 모두 가지고 있는 파일
+           - 이 때문에 다른 라이브러리가 필요없음.
+    > 3. 레이어 저장방식이 유용함
+         - 버젼업이 되거나 파일이 추가될 경우 전체 파일을 다시 배포하는 것이 아니라 추가된 파일만 새로운 layer 로 추가되는 형식.
        
   - <b>쿠버네티스(Kubernetes) vs 도커(Docker)</b>
   
