@@ -19,22 +19,22 @@
        
   - <b>쿠버네티스(Kubernetes) vs 도커(Docker)</b>
   
-    - keyword : 컨테이너와 오케스트레이션의 이해
-    - link : http://www.itworld.co.kr/news/135282
+    > - keyword : 컨테이너와 오케스트레이션의 이해
+    > - link : http://www.itworld.co.kr/news/135282
        
   - <b>Calendar class constant ID?</b> 
   
-    0 : Era<br>
-    1 : Year<br>
-    2 : Month<br>
-    3 : Week-of-year<br>
-    4 : Week-of-month<br>
-    5 : Date/day-of-month<br>
-    6 : Day-of-year<br>
-    7 : Day-of-week<br>
-    8 : Day-of-week-in-month<br>
-    9 : Am/Pm selector<br>
-   10 : Hour
+    > 0 : Era<br>
+    > 1 : Year<br>
+    > 2 : Month<br>
+    > 3 : Week-of-year<br>
+    > 4 : Week-of-month<br>
+    > 5 : Date/day-of-month<br>
+    > 6 : Day-of-year<br>
+    > 7 : Day-of-week<br>
+    > 8 : Day-of-week-in-month<br>
+    > 9 : Am/Pm selector<br>
+    > 10 : Hour
   
  - <b>Eclipse에서 search 기능</b>
  
