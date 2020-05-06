@@ -10,8 +10,7 @@
   
     > - wiki : https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BB%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)
   
-    > 1. Container 관리 플랫폼
-
+    > 1. Container 관리 플랫
     > 2. Container 와 image 가 매우 중요
          - image : Container 에 대한 A to Z 를 모두 가지고 있는 파일
            - 이 때문에 다른 라이브러리가 필요없음.
