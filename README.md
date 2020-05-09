@@ -42,13 +42,13 @@
    
  - <b>Map 과 List 의 차이</b>
  
-   > 1. List
+   > 1. List<br>
        - 장점 : 데이터 저장속도가 빠름, 데이터를 순차적으로 저장함<br>
        - 단점 : 원하는 index에 삽입/삭제 시 비효율(해당 index 아래의 데이터들을 배열에 copy 후 다시 붙여넣어야 함)
    
-   > 2. Map
+   > 2. Map<br>
         - 장점 : 특정데이터를 search 하기에 매우 유리(List 보다 삽입/삭제 에서도 빠름)<br>
-        - 단점 : List 보다 데이터 저장속도가 
+        - 단점 : List 보다 데이터 저장속도가 느림
   
  - <b>변수 정리</b>
  
@@ -66,7 +66,7 @@
         - 클래스가 로드될 때 초기화를 실행하고 그 후엔 실행되지 않음.
      
    > 2. 인스턴스 블럭<br>
-      - 인스턴스가 생성될 때마다 초기화를 실행함.
+        - 인스턴스가 생성될 때마다 초기화를 실행함.
    
    > 3. 작동 순서<br>
         - static 블럭 > 인스턴스 블럭 > 생성자
@@ -85,49 +85,7 @@
        4. 서버(노드)를 추가하면, 선형적인 기능확장을 할 수 있음.<br>
        5. 다수의 클러스트를 하나의 스토리지처럼 사용할 수 있음.
      
- - <b>웹스퀘어5(Websquare5) 란?</b>    
-
-   > - 국내 최초의 WYSIWYG 개발 도구가 포함된 HTML5 웹 표준 UI 플랫폼으로 최신의 선진 신기술과 개념, 다양한 구축 경험과 방법론을 집대성하여 HTML5를 완벽히 지원할 수 있는 HTML5 웹표준 UI 플랫폼. 
-   > - No Active X, No Runtime, Only Standard 를 가능케 함.
-   
-   > - 특징<br>
-       1. Open Architecture<br>
-       2. HTML5 Standards 적용<br>
-       3. Adaptive Web Component 제공<br>
-       4. One Source Multi Use 지원<br>
-       5. 통합개발도구 지원
-     
-   > - DataCollection 이란?<br>
-       1. 데이터 객체들의 저장소(서버와 통신하기 위한 request, response 객체와 UI구현을 위한 임시 데이터 객체들이 존재)<br>
-       2. 데이터 객체의 종류 : DataMap, DataList, LinkedDataList<br>
-       3. 각 객체는 JSON, XML, 1차원 Array 형태의 데이터로 설정하거나 변환이 가능<br>
-       4. 각 객체는 id 가 필수<br>
-       5. script 에서의 객체 접근은 객체의 id명으로 가능하며 DataCollection(최상위)에 접근하는 경우는 $w.data 객체를 사용함
-     
-   > - Data 객체의 종류<br>
-       1. DataCollection
-          - Data 객체를 담는 최상위 객체로 그롯에 해당
-          - $w.data로 접근이 가능하며 전체 데이터 객체를 제어할 수 있음
-          - Java의 Map 과 흡사
-     
-     2. DataMap
-        - Key와 Value로 이루어진 단일 데이터의 객체
-        - Java의 Map 과 흡사
-        
-     3. DataList
-        - List 형태의 다건의 데이터로 구성된 객체
-        - Java의 List 와 흡사
-        
-     4. LinkedDataList
-        - DataList 객체를 참고하여 Filter, Sort를 적용한 객체
-        - 기준되는 DataList 객체가 꼭 필요
-
-   - Submission 이란?
-     - ajax로 구현되어 있는 통신 모듈
-     - 일반적으로 request, response 데이터는 DataCollection에 정의한 데이터 객체와 연동
-     - request는 reference로 표현
-     - response는 target으로 표현 및 표기 됨
-
+ 
  - <b>stream 이란?</b>
  
    - Input/Output stream 이 있으며, 단방향이다.
