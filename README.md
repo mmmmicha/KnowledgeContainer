@@ -1,5 +1,22 @@
 # 지식창고
+  
+  - <b>merge into란?</b>
+  
+    > - 해당 테이블에 key가 존재한다면 update, 존재하지 않는다면 insert
+    > - Java 자료구조중 getOrDefault() 메소드가 
+    > - link : https://m.blog.naver.com/PostView.nhn?blogId=wiseyoun07&logNo=220319875065&proxyReferer=https:%2F%2Fwww.google.com%2F
 
+  - <b>index란?</b>
+  
+    > - 일종의 DB 주소록
+    > - link : https://rongscodinghistory.tistory.com/113
+
+  - <b>PF Key란?</b>
+   
+    > - Primary key임과 동시에 Forien Key인 Key를 말함.
+    > - 주로 Composite Key(복합키) 로 사용된다.
+    > - 독립적으로 사용되는지는 의문이다.
+  
   - <b>$(document).ready() 를 쓰는 이유는?</b>
   
     > 1. $(document).ready() 를 쓰는 이유는 jquery를 기본적으로 load 하기 위해서가 아니라 html을 전체적으로 로딩한 후에 javascript 코드를 적용하기 위해서이다.
