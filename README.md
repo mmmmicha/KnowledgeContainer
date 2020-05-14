@@ -1,5 +1,18 @@
 # 지식창고
   
+  - <b>Agile</b>
+    
+    > - Agility
+    > - backlog = (pbs+fbs)+wbs
+    > - scrum
+    > - daily standup
+    > - kanban
+    > - pmi 기법
+    > - 빨간선과 파란선의 경계를 시점과 관점으로 조율하는 것
+    > - 2주단위 sprint
+    > - bottom up
+    > - Being, Doing
+  
   - <b>merge into란?</b>
   
     > - 해당 테이블에 key가 존재한다면 update, 존재하지 않는다면 insert
