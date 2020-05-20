@@ -1,5 +1,11 @@
 # 지식창고
   
+  - <b>SVN commit 방법</b>
+  
+    > 1. SVN 폴더에 파일을 넣는다.
+    > 2. 폴더 field 에 마우스 우측클릭 > commit 클릭
+    > 3. 넣은 파일 check 후 commit 실시
+  
   - <b>AS-IS vs To-Be</b>
     
     > - As-Is : '이전의' 라는 사전적 의미. 현행 프로젝트
