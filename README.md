@@ -14,7 +14,7 @@
   - <b>Agile</b>
     
     > - Agility
-    > - backlog = (pbs+fbs)+wbs
+    > - backlog = (pbs+fbs)+wbs // Product Owner 가 갱신함.
     > - scrum
     > - daily standup
     > - kanban
@@ -23,6 +23,7 @@
     > - 2주단위 sprint
     > - bottom up
     > - Being, Doing
+    > - Product Owner + Agile Master + Team Member
   
   - <b>merge into란?</b>
   
