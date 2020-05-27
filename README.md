@@ -1,5 +1,10 @@
 # 지식창고
   
+  - <b>MongoDB 란?</b>
+  
+    > 1. 대표적인 NoSQL
+    > 2. JSON 을 sql로 파싱하지않고 저장한다.
+  
   - <b>SVN commit 방법</b>
   
     > 1. SVN 폴더에 파일을 넣는다.
