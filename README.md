@@ -1,4 +1,7 @@
 # 지식창고
+  - <b>클러스터란?</b>
+    >- link : https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0
+
   - <b>ANSI SQL 이란?</b>
     >- link : https://lena19760323.tistory.com/60
   
