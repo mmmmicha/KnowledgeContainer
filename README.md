@@ -1,6 +1,7 @@
 # 지식창고
   
   - <b>MapReduce 란?</b>
+    >- link : https://cskstory.tistory.com/entry/%EB%A7%B5%EB%A6%AC%EB%93%80%EC%8A%A4-MapReduce-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0
   
   - <b>Spark 란?</b>
     >- link : https://12bme.tistory.com/305
