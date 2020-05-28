@@ -1,6 +1,8 @@
 # 지식창고
   
-  -<b>Spark 란?</b>
+  - <b>MapReduce 란?</b>
+  
+  - <b>Spark 란?</b>
     >- link : https://12bme.tistory.com/305
   
   - <b>MongoDB 란?</b>
