@@ -1,10 +1,12 @@
 # 지식창고
   - <b>port 죽이기</b>
     >- 현존하는 port 확인
-       - netstat -ano
+       
+        - netstat -ano
        
     >- port 죽이기
-       - taskkill /f /pid 10908
+       
+        - taskkill /f /pid 10908
 
   - <b>클러스터란?</b>
     >- link : https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0
