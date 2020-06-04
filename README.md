@@ -1,4 +1,12 @@
 # 지식창고
+
+- <b>[Java]람다 표현식</b>
+    >- 표현식
+    
+        - (매개변수) -> {함수몸체}
+        
+    >- Stream 과의 
+
 - <b>Session</b>
     >- HttpSession
     
