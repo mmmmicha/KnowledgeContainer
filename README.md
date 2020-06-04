@@ -6,8 +6,7 @@
         - (매개변수) -> {함수몸체}
         
     >- Stream 과의 연계
-        
-     - link : https://futurecreator.github.io/2018/08/26/java-8-streams/
+    >       link : https://futurecreator.github.io/2018/08/26/java-8-streams/
         
 
 - <b>Session</b>
