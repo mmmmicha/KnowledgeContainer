@@ -1,5 +1,31 @@
 # 지식창고
-  - <b>port 죽이기</b>
+- <b>Session</b>
+    >- HttpSession
+    
+        - HttpSession session = request.getSession(true) // session 생성
+        - 이 session 객체는 서버에 저장됨
+        - 서버 Container에 의해 관리되는 servlet들은 이 session을 공유함
+        - session lifetime은 web.xml에 지정할 수 있음
+        - Object session.getAttribute(키)
+            - 명시적 형변환 필요
+        - session.setAttribute(키, 값)
+        
+    >- @SessionAttribute
+    
+        - 파라미터 scope 에 쓰임
+        - @SessionAttribute 값타임 키
+        - 명시적 형변환을 필요없게 해줌
+        - 사용이 한정적
+        
+    >- @SessionAttributes
+    
+        - 클래스명 위에 사용하는 어노테이션
+        - 해당 어노테이션이 쓰여있는 클래스 내에서만!! Session 공유가 가능하다(큰 단점일 수 있음)
+        - @SessionAttributes("UserNm", "PWD", ...)
+        - Model 객체와 연관됨
+            - model.setAttribute("UserNm", "정광현") // session 에 저장이 됨.
+
+- <b>port 죽이기</b>
     >- 현존하는 port 확인
        
         - netstat -ano
