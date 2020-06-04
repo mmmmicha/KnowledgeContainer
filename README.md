@@ -5,7 +5,7 @@
     
         - (매개변수) -> {함수몸체}
         
-    >- Stream 과의 
+    >- Stream 과의 연계
 
 - <b>Session</b>
     >- HttpSession
