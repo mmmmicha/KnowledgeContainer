@@ -34,36 +34,36 @@
        
         - taskkill /f /pid 10908
 
-  - <b>클러스터란?</b>
+- <b>클러스터란?</b>
     >- link : https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0
 
-  - <b>ANSI SQL 이란?</b>
+- <b>ANSI SQL 이란?</b>
     >- link : https://lena19760323.tistory.com/60
   
-  - <b>MapReduce 란?</b>
+- <b>MapReduce 란?</b>
     >- link : https://cskstory.tistory.com/entry/%EB%A7%B5%EB%A6%AC%EB%93%80%EC%8A%A4-MapReduce-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0
   
-  - <b>Spark 란?</b>
+- <b>Spark 란?</b>
     >- link : https://12bme.tistory.com/305
   
-  - <b>MongoDB 란?</b>
+- <b>MongoDB 란?</b>
     > - link : http://bigmatch.i-um.net/2013/12/09/mongodb%EB%A5%BC-%EC%93%B0%EB%A9%B4%EC%84%9C-%EC%95%8C%EA%B2%8C-%EB%90%9C-%EA%B2%83%EB%93%A4/
     
     > 1. 대표적인 NoSQL
     > 2. JSON 을 sql로 파싱하지않고 저장한다.
   
-  - <b>SVN commit 방법</b>
+- <b>SVN commit 방법</b>
   
     > 1. SVN 폴더에 파일을 넣는다.
     > 2. 폴더 field 에 마우스 우측클릭 > commit 클릭
     > 3. 넣은 파일 check 후 commit 실시
   
-  - <b>AS-IS vs To-Be</b>
+- <b>AS-IS vs To-Be</b>
     
     > - As-Is : '이전의' 라는 사전적 의미. 현행 프로젝트
     > - To-Be : '미래의' 라는 사전적 의미. 개선 or 이관 프로젝트
   
-  - <b>Agile</b>
+- <b>Agile</b>
     
     > - Agility
     > - backlog = (pbs+fbs)+wbs // Product Owner 가 갱신함.
@@ -77,30 +77,30 @@
     > - Being, Doing
     > - Product Owner + Agile Master + Team Member
   
-  - <b>merge into란?</b>
+- <b>merge into란?</b>
   
     > - 해당 테이블에 key가 존재한다면 update, 존재하지 않는다면 insert
     > - Java 자료구조중 getOrDefault() 메소드가 
     > - link : https://m.blog.naver.com/PostView.nhn?blogId=wiseyoun07&logNo=220319875065&proxyReferer=https:%2F%2Fwww.google.com%2F
 
-  - <b>index란?</b>
+- <b>index란?</b>
   
     > - 일종의 DB 주소록
     > - link : https://rongscodinghistory.tistory.com/113
 
-  - <b>PF Key란?</b>
+- <b>PF Key란?</b>
    
     > - Primary key임과 동시에 Forien Key인 Key를 말함.
     > - 주로 Composite Key(복합키) 로 사용된다.
     > - 독립적으로 사용되는지는 의문이다.
   
-  - <b>$(document).ready() 를 쓰는 이유는?</b>
+- <b>$(document).ready() 를 쓰는 이유는?</b>
   
     > 1. $(document).ready() 를 쓰는 이유는 jquery를 기본적으로 load 하기 위해서가 아니라 html을 전체적으로 로딩한 후에 javascript 코드를 적용하기 위해서이다.
     > 2. 즉, <script> 태그를 만나게 되면 렌더링을 멈추고 이를 처리하게 되는데 그래서 렌더링을 다 하고 body 태그 내 마지막에 link 태그를 둠으로써 사용자에게 렌더링요소를 먼저 보여지게 하는 것이다.
     > 3. ready를 사용하게 되면 렌더링을 다 마치고 javascript 처리를 시작하기 때문에 body 마지막에 link를 놓을 필요가 없어진다.
     
-  - <b>docker란?</b>
+- <b>docker란?</b>
   
     > - wiki : https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BB%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)
   
@@ -111,12 +111,12 @@
     > 3. 레이어 저장방식이 유용함<br>
          - 버젼업이 되거나 파일이 추가될 경우 전체 파일을 다시 배포하는 것이 아니라 추가된 파일만 새로운 layer 로 추가되는 형식.
        
-  - <b>쿠버네티스(Kubernetes) vs 도커(Docker)</b>
+- <b>쿠버네티스(Kubernetes) vs 도커(Docker)</b>
   
     > - keyword : 컨테이너와 오케스트레이션의 이해
     > - link : http://www.itworld.co.kr/news/135282
        
-  - <b>Calendar class constant ID?</b> 
+- <b>Calendar class constant ID?</b> 
   
     > 0 : Era<br>
     > 1 : Year<br>
@@ -130,11 +130,11 @@
     > 9 : Am/Pm selector<br>
     > 10 : Hour
   
- - <b>Eclipse에서 search 기능</b>
+- <b>Eclipse에서 search 기능</b>
  
    > -Search>search>File 또는 java 등등 원하는 category로 찾을 수 있음.
    
- - <b>Map 과 List 의 차이</b>
+- <b>Map 과 List 의 차이</b>
  
    > 1. List
    
@@ -146,17 +146,17 @@
        - 장점 : 특정데이터를 search 하기에 매우 유리(List 보다 삽입/삭제 에서도 빠름)
        - 단점 : List 보다 데이터 저장속도가 느림
   
- - <b>변수 정리</b>
+- <b>변수 정리</b>
  
    > 1. static변수 == 클래스 변수 == 정적 변수 <--> non-static변수 == 인스턴스 변수 == 동적 변수
    
    > 2. 멤버 == 필드 == 전역변수 <--> 지역변수
    
- - <b>DECODE 함수</b>
+- <b>DECODE 함수</b>
  
    > - DECODE(컬럼, 조건1, 결과1, 조건2, 결과2, 조건3, 결과3..........) 
 
- - <b>초기화 블럭</b>
+- <b>초기화 블럭</b>
  
    > 1. static 블럭
    
@@ -170,7 +170,7 @@
    
         - static 블럭 > 인스턴스 블럭 > 생성자
 
- - <b>하둡(Hadoop) 이란?</b>
+- <b>하둡(Hadoop) 이란?</b>
     
    > wiki : https://ko.wikipedia.org/wiki/%EC%95%84%ED%8C%8C%EC%B9%98_%ED%95%98%EB%91%A1
  
@@ -186,7 +186,7 @@
        5. 다수의 클러스트를 하나의 스토리지처럼 사용할 수 있음.
      
  
- - <b>stream 이란?</b>
+- <b>stream 이란?</b>
  
    > - Input/Output stream 이 있으며, 단방향이다.
    > - 바이트기반 스트림(stream) 과 문자기반 스트림(Reader/Writer)으로 나뉜다.
@@ -204,7 +204,7 @@
        - TreeSet : 오름차순이 적용된 set 이다.
        - LinkedHashSet : add된 순서대로 출력이 나타나는 set 이다.
      
- - <b>hashCode() 이란?</b>
+- <b>hashCode() 이란?</b>
  
    > - 모든 클래스의 모체가 되는 Object 클래스의 메소드 중 하나.
    > - 객체의 hashcode를 반환해주는 메소드
@@ -214,7 +214,7 @@
    > - 중요! 객체가 같으면 hashcode 가 같지만, hashcode가 같다고 해서 객체가 같은 것은 아니다.
    > - hashcode() return 값을 16진수로 바꾸게 되면 toString() 메소드를 사용했을때 나오는 return 값에서 "클래스명@(여기)" 에 해당하는 값과 같다. 
    
- - <b>객체비교</b>
+- <b>객체비교</b>
  
    > - 객체의 비교 방법은 여러가지가 있다.
    > - ==, equals(), hashcode(), instancof() 등...
@@ -232,7 +232,7 @@
        4. 변화 유연성 : 각 서비스의 모듈화로 교체가 용이하며 인터페이스 기반 연동으로 모듈간 변경 영향 최소화
        5. 편리하고 다양한 환경 제공 : 이클립스 기반의 모델링(UML, ERD), 에디팅, 컴파일링, 디버깅 환경 제공
 
- - <b>@RestController 란?</b>
+- <b>@RestController 란?</b>
    
    > - @Controller 는 view 객체를 리턴할 수 있는 기능을 제공해주지만, @RestController는 문자열과 JSON 등을 전송할 수 있는 기능을 추가제공한다.
    
@@ -240,16 +240,16 @@
    
    > - @Service 는 Controller 와 Repository 를 연결해주는 역할로, SpringMVC에 특화된 어노테이션이다.
    
- - <b>String.equals(null) 과 NULL.equals(String) 의 차이?</b>
+- <b>String.equals(null) 과 NULL.equals(String) 의 차이?</b>
    
    > - 후자의 경우 NullpointerException 이 발생한다. 주의할 것.
    
- - <b>.properties 확장자</b>
+- <b>.properties 확장자</b>
    
    > - link : https://ko.wikipedia.org/wiki/.properties
    > - 용도 : Spring에서 이를 유용하게 사용할 수 있다.
 
- - <b>Context path, root란?</b>
+- <b>Context path, root란?</b>
    > - Context Path : 프로젝트 명을 의미하며 url의 호스트, 포트명 다음에 나온다.<br> 
    > - Context root : Content directory의 경로. 해당 경로에 메타 정보와 웹 정보를 관리하는 META-INF와 WEB-INF 파일이 자동생성되며 JSP파일은 여기 하위에 저장되어야 경로를 찾을 수 있다.
    
