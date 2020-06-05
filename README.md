@@ -1,5 +1,8 @@
 # 지식창고
 
+- <b>데이터 통신 지식</b> 
+    >- link : https://www.sktinsight.com/87770
+
 - <b>엣지 클라우드 컴퓨팅(Edge Cloud Computing)</b> 
     >- 클라우드 컴퓨팅(Cloud Computing)
     
