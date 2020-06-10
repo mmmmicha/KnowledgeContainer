@@ -1,5 +1,8 @@
 # 지식창고
 
+- <b>아키텍처 패턴</b>
+    >- 
+
 - <b>이상거래 탐지 시스템(FDS, Fraud Detection System)</b>
     >- link : http://blog.daum.net/mc529/1499
 
