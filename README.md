@@ -85,11 +85,11 @@
         ```
                 
 - <b>이상거래 탐지 시스템(FDS, Fraud Detection System)</b>
-    - link : http://blog.daum.net/mc529/1499
+    - [이상거래 탐지 시스템](http://blog.daum.net/mc529/1499)
 
 - <b>검색엔진 최적화(SEO)</b> 
-    - link(검색엔진) : https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84
-    - link(검색엔진 최적화) : https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84_%EC%B5%9C%EC%A0%81%ED%99%94
+    - [검색엔진](https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84)
+    - [검색엔진 최적화](https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84_%EC%B5%9C%EC%A0%81%ED%99%94)
 
     - 검색 엔진
     
