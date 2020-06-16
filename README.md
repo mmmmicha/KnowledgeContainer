@@ -1,12 +1,15 @@
 # 지식창고
 
+- 모르는 것들은 그 즉시 기록하기
 
-- <b>탈중앙화 신원증명(DID, Decentralized Identifier)</b>
-
-- <b>워크로드(workload)</b>
+    ## 탈중앙화 신원증명(DID, Decentralized Identifier)
+    
+    ## 워크로드(workload)
+    
     - link : [워크로드(제타위키)](https://zetawiki.com/wiki/%EC%9B%8C%ED%81%AC%EB%A1%9C%EB%93%9C)
 
-- <b>아키텍처 패턴</b>
+    ## 아키텍처 패턴
+    
     - 종류
             
         - 레이어 패턴(Layers pattern)
@@ -33,6 +36,7 @@
             - 데이터변환, 버퍼링, 동기화 등에 사용
             - ex) UNIX 의 쉘(Shell)
         ```
+        
         - 모델-뷰-컨트롤러 패턴(MVC Pattern : Model-View-Controller Pattern)
         ```
             - 서브시스템을 3개의 부분으로 구조화하는 패턴
@@ -88,11 +92,13 @@
             - 프로그램 코드의 각 라인을 수행하는 방법을 지정하고, 기호마다 클래스를 갖도록 구성
             - 특정 언어로 작성된 프로그램 코드를 해석하는 컴포넌트를 설계할 때 사용
         ```
-                
-- <b>이상거래 탐지 시스템(FDS, Fraud Detection System)</b>
+                    
+    ## 이상거래 탐지 시스템(FDS, Fraud Detection System)
+    
     - [이상거래 탐지 시스템](http://blog.daum.net/mc529/1499)
 
-- <b>검색엔진 최적화(SEO)</b> 
+    ## 검색엔진 최적화(SEO)
+    
     - [검색엔진](https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84)
     - [검색엔진 최적화](https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84_%EC%B5%9C%EC%A0%81%ED%99%94)
 
