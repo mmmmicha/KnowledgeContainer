@@ -1,6 +1,8 @@
 # 지식창고
 
 
+- <b>탈중앙화 신원증명(DID, Decentralized Identifier)</b>
+
 - <b>워크로드(workload)</b>
     - link : [워크로드(제타위키)](https://zetawiki.com/wiki/%EC%9B%8C%ED%81%AC%EB%A1%9C%EB%93%9C)
 
