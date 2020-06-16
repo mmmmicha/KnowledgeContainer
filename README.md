@@ -173,22 +173,25 @@
     ## .crf file
     
     - 설명
-        ```
+    ```
         - Cal3D Binary Materials File
         - XML 형식으로 저장하는 .XRF 형식의 2진버전
-        ```
+    ```
         
-- <b>[Java]람다 표현식</b>
-    >- 표현식
-    
+    ## [Java]람다 표현식
+
+    - 표현식
+    ```
         - (매개변수) -> {함수몸체}
+    ```
         
-    >- Stream 과의 연계
-    >- link : https://futurecreator.github.io/2018/08/26/java-8-streams/
+    - Stream 과의 연계
+    - link : https://futurecreator.github.io/2018/08/26/java-8-streams/
         
 
-- <b>Session</b>
-    >- HttpSession
+    ## Session
+    
+    - HttpSession
     
         - HttpSession session = request.getSession(true) // session 생성
         - 이 session 객체는 서버에 저장됨
@@ -198,14 +201,14 @@
             - 명시적 형변환 필요
         - session.setAttribute(키, 값)
         
-    >- @SessionAttribute
+    - @SessionAttribute
     
         - 파라미터 scope 에 쓰임
         - @SessionAttribute 값타임 키
         - 명시적 형변환을 필요없게 해줌
         - 사용이 한정적
         
-    >- @SessionAttributes
+    - @SessionAttributes
     
         - 클래스명 위에 사용하는 어노테이션
         - 해당 어노테이션이 쓰여있는 클래스 내에서만!! Session 공유가 가능하다(큰 단점일 수 있음)
