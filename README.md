@@ -95,16 +95,16 @@
                     
     ## 이상거래 탐지 시스템(FDS, Fraud Detection System)
     
-    - [이상거래 탐지 시스템](http://blog.daum.net/mc529/1499)
+    - link : [이상거래 탐지 시스템](http://blog.daum.net/mc529/1499)
 
     ## 검색엔진 최적화(SEO)
     
-    - [검색엔진](https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84)
-    - [검색엔진 최적화](https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84_%EC%B5%9C%EC%A0%81%ED%99%94)
+    - link : [검색엔진(wiki)](https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84)
+    - link : [검색엔진 최적화(wiki)](https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84_%EC%B5%9C%EC%A0%81%ED%99%94)
 
     ## 데이터 통신 지식
     
-    - link : https://www.sktinsight.com/87770
+    - link : [데이터 통신 지식](https://www.sktinsight.com/87770)
 
     ## 엣지 클라우드 컴퓨팅(Edge Cloud Computing)
     
@@ -186,7 +186,7 @@
     ```
         
     - Stream 과의 연계
-    - link : https://futurecreator.github.io/2018/08/26/java-8-streams/
+    - link : [람다 표현식](https://futurecreator.github.io/2018/08/26/java-8-streams/)
         
 
     ## Session
@@ -432,8 +432,8 @@
  
     - 모든 클래스의 모체가 되는 Object 클래스의 메소드 중 하나.
     - 객체의 hashcode를 반환해주는 메소드
-    - **참고!! hashcode 는 가상메모리의 주소가 아니라, 객체들을 구별하기위한 구별자
-    - **객체가 같으면 hashcode 가 같지만, hashcode가 같다고 해서 객체가 같은 것은 아니다.
+    - **참고!! hashcode 는 가상메모리의 주소가 아니라, 객체들을 구별하기위한 구별자**
+    - **객체가 같으면 hashcode 가 같지만, hashcode가 같다고 해서 객체가 같은 것은 아니다.**
     - hashcode() return 값을 16진수로 바꾸게 되면 toString() 메소드를 사용했을때 나오는 return 값에서 **클래스명@(`여기`)** 에 해당하는 값과 같다. 
    
     ## 객체비교
