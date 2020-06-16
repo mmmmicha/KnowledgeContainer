@@ -1,7 +1,11 @@
 # 지식창고
 
 - 모르는 것들은 그 즉시 기록하기
-
+    
+    ## ETC(알쓸신잡)
+    - [visa(wiki)](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%9E%90%EC%B9%B4%EB%93%9C)
+    - [master card(wiki)](https://ko.wikipedia.org/wiki/%EB%A7%88%EC%8A%A4%ED%84%B0%EC%B9%B4%EB%93%9C)
+    
     ## 탈중앙화 신원증명(DID, Decentralized Identifier)
     
     ## 워크로드(workload)
