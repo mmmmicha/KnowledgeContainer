@@ -9,6 +9,7 @@
     ## ETC(알쓸신잡)
     - [visa(wiki)](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%9E%90%EC%B9%B4%EB%93%9C)
     - [master card(wiki)](https://ko.wikipedia.org/wiki/%EB%A7%88%EC%8A%A4%ED%84%B0%EC%B9%B4%EB%93%9C)
+    - [VC(wiki)](https://ko.wikipedia.org/wiki/%EB%B2%A4%EC%B2%98_%EC%BA%90%ED%94%BC%ED%84%B8)
     
     ## 탈중앙화 신원증명(DID, Decentralized Identifier)
     
