@@ -7,6 +7,7 @@
     - [적절한 디앱아키텍처가 왜 중요한가](https://skale.network/blog/danil-hyeongsig-vs-meolticein-wae-jeogjeolhan-diaeb-akitegceoga-jungyohanga)
     
     ## ETC(알쓸신잡)
+    - [핀테크 와 테크핀](https://m.post.naver.com/viewer/postView.nhn?volumeNo=17217422&memberNo=42188607)
     - [visa(wiki)](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%9E%90%EC%B9%B4%EB%93%9C)
     - [비자(VISA) 발급](https://m.blog.naver.com/PostView.nhn?blogId=hi_calt&logNo=130135979276&proxyReferer=https:%2F%2Fwww.google.com%2F)
     - [master card(wiki)](https://ko.wikipedia.org/wiki/%EB%A7%88%EC%8A%A4%ED%84%B0%EC%B9%B4%EB%93%9C)
