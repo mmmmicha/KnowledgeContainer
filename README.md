@@ -2,6 +2,9 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
+    ## [Java] Telegram 봇 API
+    - link : [Java 를 이용해 Telegram 봇에 메세지 보내기](https://kshman94.tistory.com/40)
+    
     ## 블록체인
     - [생활 속 블록체인 사례](https://m.blog.naver.com/softcamp1999/221416980281)
     - [블록체인 개념 정리](https://terms.naver.com/entry.nhn?docId=3578241&cid=59088&categoryId=59096)
