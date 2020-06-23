@@ -5,6 +5,7 @@
     ## 사설 IP, 공인 IP
     - [IP주소 구분에 대한 모든 것(강추!!)](http://gotocloud.co.kr/?p=320)
     - [사설 IP주소와 VPN](https://velog.io/@noyo0123/VPN%EC%9D%B4%EB%9E%80-czk1z1of8x)
+    - [포트 포워딩(외부에서 내 컴퓨터 접속하기)](http://webprogramming.co.kr/admins_blog/1397)
     
     ## 호스트(host)
     - 호스트의 기준 : IP 주소
