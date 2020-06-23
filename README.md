@@ -2,9 +2,13 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
-    ## 호스팅
-    - link : [호스팅이란 무엇인가?](http://blog.wishket.com/%ED%98%B8%EC%8A%A4%ED%8C%85%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C-%EA%B7%B8%EB%A6%B0%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/)
+    ## 호스트(host)
+    - 호스트의 기준 : IP 주소
+        - IPv4, IPv6
+    - link : [호스트이름, 도메인이름](https://dnssec.tistory.com/26)
     - 호스팅이란 정보의 집약체인 서버의 전체 혹은 일부를 이용할 수 있도록 임대해 주는 서비스를 말합니다.
+    - link : [호스팅이란 무엇인가?](http://blog.wishket.com/%ED%98%B8%EC%8A%A4%ED%8C%85%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C-%EA%B7%B8%EB%A6%B0%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/)
+    
     
     ## Web
     - link : [월드 와이드 웹(www, World Wide Web)](https://ko.wikipedia.org/wiki/%EC%9B%94%EB%93%9C_%EC%99%80%EC%9D%B4%EB%93%9C_%EC%9B%B9)
