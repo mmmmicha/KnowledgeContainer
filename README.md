@@ -2,6 +2,10 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
+    ## Web
+    - link : [월드 와이드 웹(www, World Wide Web)](https://ko.wikipedia.org/wiki/%EC%9B%94%EB%93%9C_%EC%99%80%EC%9D%B4%EB%93%9C_%EC%9B%B9)
+    - 웹은 전자 메일과 같이 인터넷 상에서 동작하는 하나의 서비스일 뿐이다.
+    
     ## [Java] Telegram 봇 API
     - link : [Java 를 이용해 Telegram 봇에 메세지 보내기](https://kshman94.tistory.com/40)
     
