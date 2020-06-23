@@ -3,7 +3,8 @@
 - 모르는 것들은 그 즉시 기록하기
     
     ## 사설 IP, 공인 IP
-    - link : [IP주소 구분에 대한 모든 것(강추!!)](http://gotocloud.co.kr/?p=320)
+    - [IP주소 구분에 대한 모든 것(강추!!)](http://gotocloud.co.kr/?p=320)
+    - [사설 IP주소와 VPN](https://velog.io/@noyo0123/VPN%EC%9D%B4%EB%9E%80-czk1z1of8x)
     
     ## 호스트(host)
     - 호스트의 기준 : IP 주소
