@@ -2,6 +2,10 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
+    ## 인포테인먼트
+    - [네비가 아니라 인포테인먼트 시스템입니다.](https://brunch.co.kr/@realhoo/11)
+    - '정보' 를 뜻하는 `인포메이션(Information)` 과 '즐거움'을 뜻하는 `엔터테인먼트(Entertainment)`의 합성어
+    
     ## 사설 IP, 공인 IP
     - [IP주소 구분에 대한 모든 것(강추!!)](http://gotocloud.co.kr/?p=320)
     - [사설 IP주소와 VPN](https://velog.io/@noyo0123/VPN%EC%9D%B4%EB%9E%80-czk1z1of8x)
