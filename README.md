@@ -34,6 +34,12 @@
     - [적절한 디앱아키텍처가 왜 중요한가](https://skale.network/blog/danil-hyeongsig-vs-meolticein-wae-jeogjeolhan-diaeb-akitegceoga-jungyohanga)
     
     ## ETC(알쓸신잡)
+    - 인슈어테크(insurTech)
+        - **보험(insurance)** + **기술(technology)**의 합성어
+        - 기술과 보험업의 융합
+        
+        - 대표 사례
+            - 레모네이드, 美증시 상장
     - [펜데믹](https://ko.wikipedia.org/wiki/%EB%B2%94%EC%9C%A0%ED%96%89) : 전염병이나 감염병이 범지구적으로 유행하는 것.
     - [뉴딜정책](https://ko.wikipedia.org/wiki/%EB%89%B4%EB%94%9C)
     - [핀테크 와 테크핀](https://m.post.naver.com/viewer/postView.nhn?volumeNo=17217422&memberNo=42188607)
