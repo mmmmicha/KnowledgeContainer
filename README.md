@@ -2,6 +2,16 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
+    ## 클라우드 컴퓨팅
+    - 정의
+        - 내 컴퓨터가 아닌 원격의 컴퓨터의 자원을 이용하는 컴퓨팅방식
+    - 종류
+        - SaaS(Software as a Service)
+        - Iaas(Instructure as a Service)
+        - FaaS(Flatform as a Service)
+        - DaaS(Desktop as a Service) : [참조링크](https://www.vmware.com/kr/topics/glossary/content/desktop-as-a-service.html)
+        - BaaS(Blockchain as a Service)
+    
     ## 인포테인먼트
     - [네비가 아니라 인포테인먼트 시스템입니다.](https://brunch.co.kr/@realhoo/11)
     - '정보' 를 뜻하는 `인포메이션(Information)` 과 '즐거움'을 뜻하는 `엔터테인먼트(Entertainment)`의 합성어
