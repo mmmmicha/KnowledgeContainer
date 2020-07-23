@@ -44,6 +44,7 @@
     - [적절한 디앱아키텍처가 왜 중요한가](https://skale.network/blog/danil-hyeongsig-vs-meolticein-wae-jeogjeolhan-diaeb-akitegceoga-jungyohanga)
     
     ## ETC(알쓸신잡)
+    - [랙 서버](https://namu.wiki/w/%EB%9E%99%EB%A7%88%EC%9A%B4%ED%8A%B8)
     - 인슈어테크(insurTech)
         - **보험(insurance)** + **기술(technology)**의 합성어
         - 기술과 보험업의 융합
