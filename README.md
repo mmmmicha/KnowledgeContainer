@@ -44,6 +44,11 @@
     - [적절한 디앱아키텍처가 왜 중요한가](https://skale.network/blog/danil-hyeongsig-vs-meolticein-wae-jeogjeolhan-diaeb-akitegceoga-jungyohanga)
     
     ## ETC(알쓸신잡)
+    - [PG사업](https://outstanding.kr/paymentgateway20200311)
+        - Payment Gateway
+        - **결제** 를 담당하는 회사
+        - 온라인에서 물건을 파는 가맹점과 지불 수단을 제공하는 금융사를 이어줌
+        - 처리한 거래액 중 일정 비율을 수수료로 번다.
     - [랙 서버](https://namu.wiki/w/%EB%9E%99%EB%A7%88%EC%9A%B4%ED%8A%B8)
     - 인슈어테크(insurTech)
         - **보험(insurance)** + **기술(technology)**의 합성어
