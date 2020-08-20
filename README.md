@@ -2,6 +2,10 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
+    ## TNS Service(ORACLE)
+    - [참고링크](http://blog.naver.com/PostView.nhn?blogId=hei4&logNo=220105219049)
+    - 정리해야함!!
+    
     ## 클라우드 컴퓨팅
     - 정의
         - 내 컴퓨터가 아닌 원격의 컴퓨터의 자원을 이용하는 컴퓨팅방식
