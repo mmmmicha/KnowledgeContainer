@@ -48,6 +48,8 @@
     - [적절한 디앱아키텍처가 왜 중요한가](https://skale.network/blog/danil-hyeongsig-vs-meolticein-wae-jeogjeolhan-diaeb-akitegceoga-jungyohanga)
     
     ## ETC(알쓸신잡)
+    - [ARM](https://namu.wiki/w/ARM(CPU))
+    - [AP(Aplication Processor)](https://www.samsungsemiconstory.com/203) : cpu기능 + 다른장치를 제어하는 칩셋 기능
     - [PG사업](https://outstanding.kr/paymentgateway20200311)
         - Payment Gateway
         - **결제** 를 담당하는 회사
