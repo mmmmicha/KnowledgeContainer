@@ -293,6 +293,7 @@
     
     ## port 죽이기
     
+    ### WINDOW
     - 현존하는 port 확인
     ```   
         - netstat -ano
@@ -301,6 +302,12 @@
     - port 죽이기
     ```   
         - taskkill /f /pid 10908
+    ```
+    
+    ### UNIX
+    - tomcat 죽이기
+    ```
+        - sudo pkill -9 -f tomcat
     ```
     
     ## 클러스터
