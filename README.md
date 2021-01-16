@@ -2,6 +2,12 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
+    ## Git 캐시 삭제 명령어
+    ```
+        git rm -r --cached .
+        git add .
+    ```
+    
     ## 템플릿 엔진(Template Engine)
     - [템플릿 엔진이란?](https://gmlwjd9405.github.io/2018/12/21/template-engine.html)
     
