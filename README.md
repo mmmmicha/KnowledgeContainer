@@ -2,6 +2,10 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
+    ## 캐시서버(Cache Server)
+    - [캐시서버란(나무위키)](https://namu.wiki/w/%EC%BA%90%EC%8B%9C%20%EC%84%9C%EB%B2%84)
+    - [캐시서버란 무엇인가](http://www.dt.co.kr/contents.html?article_no=20000330101602002)
+    
     ## Git 캐시 삭제 명령어
     ```
         git rm -r --cached .
