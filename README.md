@@ -252,14 +252,6 @@
             - 비용과 자원의 사용이 아직 모호함            
         ```
         
-    ## .crf file
-    
-    - 설명
-    ```
-        - Cal3D Binary Materials File
-        - XML 형식으로 저장하는 .XRF 형식의 2진버전
-    ```
-        
     ## [Java]람다 표현식
 
     - 표현식
