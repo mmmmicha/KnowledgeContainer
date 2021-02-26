@@ -2,6 +2,20 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
+    ## PathVariable 과 QueryStringParameter 의 차이
+    - Path Variable
+      ```
+      localhost:8080/delete/123
+      ```
+      - 경로 상 parameter 를 넘기는 것
+      - delete에 주로 쓸 수 있음
+    - Query String Parameter
+      ```
+      localhost:8080/put?id=321&name=예제
+      ```
+      - ? 뒤에 넘기게 되는 parameter를 지칭함
+      - 주로 get방식에 쓰인다.
+    
     ## ssh(Secure Shell)
     - [ssh란?](https://jootc.com/p/201808031460)
     - 보안이 아주 강한 통신 프로토콜
