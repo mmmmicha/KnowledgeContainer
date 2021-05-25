@@ -2,6 +2,13 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
+    ## Encrypt
+    - RSA 암호화
+      - 공개키, 개인키 암호화 시스템
+    - ecdh(≒secp256r1 ≒nistP256)
+      - 서로 다른 둘이 각각 key pair(공개, 비밀) 을 만들어서 공개키를 교환한 후 각자의 비밀키와 공개키로 secret key 를 만들었을 때 그 값이 같아야함.
+    - ECB, CBC
+    
     ## PathVariable 과 QueryStringParameter 의 차이
     - Path Variable
       ```
