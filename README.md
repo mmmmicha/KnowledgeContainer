@@ -2,6 +2,12 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
+    ## AWS
+    ### RDS
+    - rdsadmin 권한으로 parameter 수정하기
+      - parameter group 수정하기
+      - 직접적으로 rdsadmin 으로 로그인해서 수정하는 것 불가능
+    
     ## Encrypt
     - RSA 암호화
       - 공개키, 개인키 암호화 시스템
