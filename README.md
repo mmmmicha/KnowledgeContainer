@@ -2,6 +2,9 @@
 
 - 모르는 것들은 그 즉시 기록하기
     
+    ## Redis
+    - max-memory eviction policy
+    
     ## GC 가 커버하지 못하는 경우
     - 이런 객체들이 존재함 (대표적으로 C#에서 '암호화Object')
     - 이런 객체들은 보통 하드웨어 가속을 씀(CPU)
