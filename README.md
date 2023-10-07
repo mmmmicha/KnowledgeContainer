@@ -1,7 +1,14 @@
-# 지식창고
+# Knowledge Hub
 
-- 2023.10.07 다시 기록 시작
-- 모르는 것들은 그 즉시 기록하기
+```
+도움을 많이 받았던 사이트 링크를 모아두거나 지식 자체를 기록하고 있습니다.
+```
+
+- 매년 12월달은 Knowledge Hub 정리
+    - 잘못된 부분 수정
+    - 디렉토리 정리
+- 2023.10.07 부터 다시 기록 시작
+
 
 ## backend
 - [nodejs](./backend/nodejs/README.md)
@@ -22,7 +29,9 @@
 - [typescript](./frontend/typescript/README.md)
 - [javascript](./frontend/javascript/README.md)
 - [jquery](./frontend/jquery/README.md)
+## [network](./network/README.md)
 ## [etc](./etc/README.md)
+- [git](./etc/git/README.md)
 
     
    

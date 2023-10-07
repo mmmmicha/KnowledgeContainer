@@ -1,6 +1,6 @@
 # DOCKER
-
-## docker
+- link : [docker network 설정하기2](https://www.daleseo.com/docker-networks/)
+- link : [도커(Docker) 입문편 | 컨테이너 기초부터 서버 배포까지](https://www.44bits.io/ko/post/easy-deploy-with-docker)
 - link : [springbootApp docker로 배포하기 및 mysql 연동](https://galid1.tistory.com/726)
 - link : [docker network 설정하기](https://galid1.tistory.com/723)
 - link : [도커(wiki)](https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BB%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))

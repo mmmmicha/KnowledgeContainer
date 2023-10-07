@@ -1,6 +1,9 @@
 # ETC
 - 아직 분류가 제대로 되지 않은 지식들
 
+- link : [Z-Wave 란?](https://blog.naver.com/owcred601/220623424615)
+- link : [REST API 제대로 알고 사용하기](https://meetup.nhncloud.com/posts/92)
+
 ## Base64 vs safe url Base64
 - 끝부분 `=` 는 없애고, `+` => `-` & `/` => `_`
     - url 로 들어갔을 때 치명적일 수 있는 문자들이기 때문.
