@@ -1,5 +1,6 @@
 # ETC
 - 아직 분류가 제대로 되지 않은 지식들
+- 잔디 심기 테스트
 
 - link : [Z-Wave 란?](https://blog.naver.com/owcred601/220623424615)
 - link : [REST API 제대로 알고 사용하기](https://meetup.nhncloud.com/posts/92)
