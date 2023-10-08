@@ -14,7 +14,7 @@
 - [nodejs](./backend/nodejs/README.md)
 - [java](./backend/java/README.md)
 - [spring](./backend/spring/README.md)
-- [c#](./backend/c#/README.md)
+- [c#](./backend/csharp/README.md)
 ## db
 - [mongodb](./db/mongodb/README.md)
 - [mysql](./db/mysql/README.md)
