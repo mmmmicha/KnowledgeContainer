@@ -1,5 +1,11 @@
 # ORACLE DB
 
+## ANSI SQL    
+- link : [ANSI SQL 이란?](https://lena19760323.tistory.com/60)
+
+## TNS Service(ORACLE)
+- link : [오라클 TOAD(토드) TNS, SID 연결 설정](http://blog.naver.com/PostView.nhn?blogId=hei4&logNo=220105219049)
+
 ## merge into(오라클)
 - 해당 테이블에 key가 존재한다면 `update`, 존재하지 않는다면 `insert`
 - Java Map 중 `getOrDefault()` 메소드가 이와 비슷하다고 생각

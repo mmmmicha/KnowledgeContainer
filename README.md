@@ -20,18 +20,27 @@
 - [mysql](./db/mysql/README.md)
 - [redis](./db/redis/README.md)
 - [oracle](./db/oracle/README.md)
-- [hadoop](./db/hadoop/README.md)
+- [bigdata](./db/bigdata/README.md)
 ## devops
 - [aws](./devops/aws/README.md)
 - [docker](./devops/docker/README.md)
 - [k8s](./devops/k8s/README.md)
+- [linux](./devops/linux/README.md)
 ## frontend
+- [nextjs](./frontend/nextjs/README.md)
+- [reactjs](./frontend/reactjs/README.md)
 - [typescript](./frontend/typescript/README.md)
-- [javascript](./frontend/javascript/README.md)
 - [jquery](./frontend/jquery/README.md)
 ## [network](./network/README.md)
+## [blockchain](./blockchain/README.md)
+- [hyperledger fabric](./blockchain/hyperledger%20fabric/README.md)
+- [web3](./blockchain/web3/README.md)
 ## [etc](./etc/README.md)
 - [git](./etc/git/README.md)
+- [google api](./etc/googleapi/README.md)
+- [design pattern](./etc/design%20pattern/README.md)
+- [crypto](./etc/crypto/README.md)
+- [protocol](./etc/protocol/README.md)
 
     
    
