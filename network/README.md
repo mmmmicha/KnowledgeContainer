@@ -2,6 +2,9 @@
 - link : [CIDR란 무엇인가?](https://www.nakjunizm.com/2020/01/29/Cidr/)
 - link : [proxy 서버 란?](https://yunyoung1819.tistory.com/9)
 
+## DNS(Domain Name Server)
+- link : [DNS protocol](https://galid1.tistory.com/53)
+
 ## 사설 IP, 공인 IP
 - link : [IP주소 구분에 대한 모든 것(강추!!)](http://gotocloud.co.kr/?p=320)
 - link : [사설 IP주소와 VPN](https://velog.io/@noyo0123/VPN%EC%9D%B4%EB%9E%80-czk1z1of8x)
