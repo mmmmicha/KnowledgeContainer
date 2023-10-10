@@ -3,6 +3,7 @@
 - link : [proxy 서버 란?](https://yunyoung1819.tistory.com/9)
 
 ## DNS(Domain Name Server)
+- link : [DNS 레코드 타입설명](https://win100.tistory.com/360)
 - link : [DNS protocol](https://galid1.tistory.com/53)
 
 ## 사설 IP, 공인 IP

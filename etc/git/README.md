@@ -6,3 +6,7 @@
 ## Git 캐시 삭제 명령어
     git rm -r --cached .
     git add .
+
+## Git Blog
+- link : [깃 블로그 css 깨질 떄](https://iamheesoo.github.io/blog//gitblog-css-problem)
+- link : [깃 블로그 쉽게 만들기 및 관리하기](https://velog.io/@pyk0844/%EA%B9%83-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0%EC%89%BD%EA%B2%8C-%EA%B4%80%EB%A6%AC-%ED%95%98%EA%B8%B0)
