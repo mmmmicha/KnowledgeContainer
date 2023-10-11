@@ -1,4 +1,7 @@
 # NODEJS
+<!-- 2023.10.11 -->
+- link : [javascript 엔진과 브라우저, nodejs의 동작 이해](https://inpa.tistory.com/entry/%F0%9F%94%84-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84-%EA%B5%AC%EC%A1%B0-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC)
+- link : [동기, 비동기 그리고 블로킹, 논블로킹 완벽 이해](https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%EB%8F%99%EA%B8%B0%EB%B9%84%EB%8F%99%EA%B8%B0-%EB%B8%94%EB%A1%9C%ED%82%B9%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC)
 <!-- 2023.10.10 -->
 - link : [util.promisify 라는 것이 있다?](https://helloinyong.tistory.com/94)
 - link : [nodejs process 터미널 출력에 대한 흥미로운 options](https://runebook.dev/ko/docs/node/process)
