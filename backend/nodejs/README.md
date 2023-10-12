@@ -1,6 +1,20 @@
 # NODEJS
+<!-- 2023.10.12 -->
+- link : [module wraper function](https://velog.io/@vekkary/exports%EC%99%80-module.exports)
+- link : [http module 에 대한 설명](https://sjh836.tistory.com/84)
+    - 익히 알고 있는 req 는 IncomingMessage 이고, res 는 serverResponse 이다.
+- link : [process module](https://nodejs.org/api/process.html)
+    - process 모듈은 EventEmitter 를 상속받고 있다.
+- NodeJS LTS 버젼은 어떻게 선정되는가?
+    - LTS release status is “long-term support”, which typically guarantees that critical bugs will be fixed for a total of 30 months. Production applications should only use Active LTS or Maintenance LTS releases.
+- link : [path module](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-Path-%EB%AA%A8%EB%93%88-%F0%9F%A7%B7-%EA%B2%BD%EB%A1%9C-%EC%A0%9C%EC%96%B4)
+- link : [__dirname / __filename / process.cwd() 차이 정리](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-dirname-filename-processcwd-%EC%B0%A8%EC%9D%B4-%EC%A0%95%EB%A6%AC)
+- link : [event module](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-require-%EB%AA%A8%EB%93%88)
+- link : [child_process](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-childprocess-%EB%AA%A8%EB%93%88)
+- link : [Worker_Threads 모듈 (멀티 쓰레드 구현)](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-workerthreads-%EB%AA%A8%EB%93%88?category=890802)
+- link : [module:repl](https://runebook.dev/ko/docs/node/repl)
 <!-- 2023.10.11 -->
-- link : [javascript 엔진과 브라우저, nodejs의 동작 이해](https://inpa.tistory.com/entry/%F0%9F%94%84-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84-%EA%B5%AC%EC%A1%B0-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC)
+- link : [nojavascript 엔진과 브라우저, nodejs의 동작 이해](https://inpa.tistory.com/entry/%F0%9F%94%84-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84-%EA%B5%AC%EC%A1%B0-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC)
 - link : [동기, 비동기 그리고 블로킹, 논블로킹 완벽 이해](https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%EB%8F%99%EA%B8%B0%EB%B9%84%EB%8F%99%EA%B8%B0-%EB%B8%94%EB%A1%9C%ED%82%B9%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC)
 <!-- 2023.10.10 -->
 - link : [util.promisify 라는 것이 있다?](https://helloinyong.tistory.com/94)
