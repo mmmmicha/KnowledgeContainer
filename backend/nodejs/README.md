@@ -1,4 +1,14 @@
 # NODEJS
+<!-- 2023.10.13 -->
+- link : [async_hooks module](https://runebook.dev/ko/docs/node/async_hooks)
+- link : [node-gyp 사용 예제](https://m.blog.naver.com/pjt3591oo/220781916699)
+    - node-gyp란 노드로 작성된 크로스 플랫폼 CLI. 이것을 통해 노드에서 네이티브 애드온 모듈들을 사용할 수 있다.
+- link : [semantic versioning](https://jake-seo-dev.tistory.com/283)
+- The crypto module provides cryptographic functionality that includes a set of wrappers for OpenSSL's hash, HMAC, cipher, decipher, sign, and verify functions.
+- link : [cluster module 을 통해 멀티코어 사용하기](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-cluster-%EB%AA%A8%EB%93%88-%EC%BD%94%EC%96%B4%EB%A5%BC-%EC%B6%94%EA%B0%80%EB%A1%9C-%EC%82%AC%EC%9A%A9)
+- link : [import, export](https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-import-export-%EC%A0%95%EB%A6%AC)
+- .node extention file
+    - a C++ Addon file that is built with node-gyp
 <!-- 2023.10.12 -->
 - link : [module wraper function](https://velog.io/@vekkary/exports%EC%99%80-module.exports)
 - link : [http module 에 대한 설명](https://sjh836.tistory.com/84)
