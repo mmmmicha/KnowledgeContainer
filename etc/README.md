@@ -29,6 +29,7 @@
 - 웹은 전자 메일과 같이 인터넷 상에서 동작하는 하나의 서비스일 뿐이다.
     
 ## ETC(알쓸신잡)
+- link : [샌드박스(sandbox) 란?](https://aonenetworks.tistory.com/550)
 - link : [ARM](https://namu.wiki/w/ARM(CPU))
 - link : [AP(Aplication Processor)](https://www.samsungsemiconstory.com/203) : cpu기능 + 다른장치를 제어하는 칩셋 기능
 - link : [PG사업](https://outstanding.kr/paymentgateway20200311)

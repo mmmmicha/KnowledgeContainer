@@ -1,4 +1,17 @@
 # NODEJS
+<!-- 2023.10.14 -->
+- link : [static files in nodejs](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=pjok1122&logNo=221545195520)
+- link : [npm 과 yarn](https://cloud-allstudy.tistory.com/958)
+- link : [package-lock.json 이 필요한 이유](https://jihyundev.tistory.com/21)
+- link : [commonjs 와 es module 의 공존(good practice)](https://toss.tech/article/commonjs-esm-exports-field)
+- link : [ECMAScript 쉬운 설명](https://wormwlrm.github.io/2018/10/03/What-is-the-difference-between-javascript-and-ecmascript.html)
+- link : [ECMAScript 란?](https://sumini.dev/til/006-ecmascript/)
+- link : [error class](https://nodejs.org/api/errors.html)
+- link : [assert module](https://www.geeksforgeeks.org/node-js-assert-iferror-function/?ref=lbp)
+    - ifError(value) 메소드는 error object 를 리턴하고 value 값을 메시지에 포함한다. value 에 undefined, null 을 넣을 경우 error 를 리턴하지 않는다.
+- link : [exports 와 module.exports 의 차이](https://dydals5678.tistory.com/97)
+- link : [vm module2(참고용. 많이 어려움)](https://core-research-team.github.io/2023-03-29/Nodejs-VM-Sandbox-Breakout)
+- link : [vm module](https://homzzang.com/b/njs-62)
 <!-- 2023.10.13 -->
 - link : [async_hooks module](https://runebook.dev/ko/docs/node/async_hooks)
 - link : [node-gyp 사용 예제](https://m.blog.naver.com/pjt3591oo/220781916699)
@@ -6,6 +19,7 @@
 - link : [semantic versioning](https://jake-seo-dev.tistory.com/283)
 - The crypto module provides cryptographic functionality that includes a set of wrappers for OpenSSL's hash, HMAC, cipher, decipher, sign, and verify functions.
 - link : [cluster module 을 통해 멀티코어 사용하기](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-cluster-%EB%AA%A8%EB%93%88-%EC%BD%94%EC%96%B4%EB%A5%BC-%EC%B6%94%EA%B0%80%EB%A1%9C-%EC%82%AC%EC%9A%A9)
+    - cluster module 은 기본적으로 os 모듈과 세트라고 볼 수 있다. os 모듈을 통해 코어 갯수를 확인한 후 cluster worker 를 설정한다.
 - link : [import, export](https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-import-export-%EC%A0%95%EB%A6%AC)
 - .node extention file
     - a C++ Addon file that is built with node-gyp
