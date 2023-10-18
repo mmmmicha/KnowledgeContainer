@@ -1,4 +1,9 @@
 # TYPESCRIPT
+<!-- 2023.10.18 -->
+- link : [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- link : [prototype chains](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+- link : [anonymous functions](https://www.javascripttutorial.net/javascript-anonymous-functions/)
+- link : [for vs foreach](https://stackoverflow.com/questions/43031988/javascript-efficiency-for-vs-foreach)
 <!-- 2023.10.09 -->
 - link : [javascript engine 동작의 완전 이해](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 <!-- 2023.10.07 -->
