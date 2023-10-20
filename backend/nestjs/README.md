@@ -1,5 +1,15 @@
 # NESTJS
 <!-- 2023.10.19 -->
+- link : [nestjs auth 적용하기](https://codegear.tistory.com/68)
+    - link : [@EntityRepository deprecated 에 따른 해법](https://velog.io/@sheoae12/NestJS-Custom-Repository-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+- link : [nestjs typeorm 적용하기](https://codegear.tistory.com/67)
+    - 주의 synchronize: true는 운영에서는 사용하지 마세요. 
+    - 적용순서
+        1. app.module 에 mysql 정보 등록
+        2. entity 생성
+        3. 생성한 entity 를 app.module 내 mysql 정보 내에 등록
+        4. 해당 entity 에 해당하는 module.ts 에 imports 및 exports 로 typeorm 등록
+        5. service 에 constructor 로 repository 생성한 후 사용
 - link : [nestjs 미들웨어](https://codegear.tistory.com/63)
     - 미들웨어는 라우터 핸들러 이전에 호출되는 함수
     - ```@Injectable``` 데코레이터를 사용합니다
