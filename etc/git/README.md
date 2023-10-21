@@ -1,4 +1,5 @@
 # GIT
+- link : [이상적인 commit 단위는 무엇일까](https://youtu.be/f7RMOeApPh8?t=229)
 - link : [fork 해온 repository 잔디 심는 방법 : repository 복사해오기 duplicate the repository](https://soranhan.tistory.com/11)
 - link : [잔디심기 누락 현상 해결](https://kdjun97.github.io/git-github/plant-grass/)
 - link : [깃허브 사용법(입문)](https://homeproject.tistory.com/9)
