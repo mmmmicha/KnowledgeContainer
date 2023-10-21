@@ -122,6 +122,12 @@
 ```
     sudo pkill -9 -f tomcat
 ```
+
+### MAC
+```
+    lsof -i :PORT번호
+    kill -9 PID넘버
+```
     
 ## 클러스터
 - link : [클러스터(wiki)](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0)
