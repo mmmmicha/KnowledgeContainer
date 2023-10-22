@@ -1,4 +1,12 @@
 # NESTJS
+<!-- 2023.10.22 -->
+- link : [nestjs cookies](https://codegear.tistory.com/78)
+- link : [nestjs validator](https://codegear.tistory.com/76)
+- link : [nestjs roles](https://codegear.tistory.com/74)
+    - link : [canActivate 에 대한 이해](https://www.daleseo.com/nestjs-guards/)
+        - ```guard``` 를 사용하기 위해서 필요한 interface 이다.
+    - link : [reflector 에 대한 이해](https://hwasurr.io/nestjs/caching/)
+        - reflector 는 Nestjs에서 제공하는 메타데이터를 다루기 위한 클래스 Reflector의 인스턴스입니다.
 <!-- 2023.10.21 -->
 - link : [nestjs jwt passport](https://codegear.tistory.com/73)
     - 적용
