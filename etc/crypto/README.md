@@ -2,6 +2,10 @@
 - link : [Hex To Byte, Byte To Hex](https://m.blog.naver.com/PostView.naver?blogId=phm0515&logNo=20167769706&proxyReferer=https:%2F%2Fwww.google.com%2F)
 - link : [base64 인코딩이란?](https://effectivesquid.tistory.com/entry/Base64-%EC%9D%B8%EC%BD%94%EB%94%A9%EC%9D%B4%EB%9E%80)
 
+## jwt
+- link : [jwt refreshToken 관리](https://velog.io/@from_numpy/NestJS-How-to-implement-Refresh-Token-with-JWT#-refresh-token%EC%9D%80-%EC%99%9C-%EB%93%B1%EC%9E%A5%ED%95%98%EC%98%80%EB%8A%94%EA%B0%80)
+    - link : [jwt refreshToken 관리 2(비슷한 내용)](https://soonyubi.github.io/jwt-refresh-token/)
+
 ## Base64 vs safe url Base64
 - 끝부분 `=` 는 없애고, `+` => `-` & `/` => `_`
     - url 로 들어갔을 때 치명적일 수 있는 문자들이기 때문.
