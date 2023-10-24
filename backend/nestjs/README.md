@@ -1,4 +1,7 @@
 # NESTJS
+<!-- 2023.10.24 -->
+- link : [nestjs configModule 사용하기](https://velog.io/@kakasoo/Nest%EC%97%90%EC%84%9C-ConfigModule-TypeORM-%EC%93%B0%EA%B8%B0)
+- link : [nestjs multer(file upload)](eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTY5ODExMTA2NCwiZXhwIjoxNzAxNzExMDY0fQ._ZRh6NYlUn2y64ZGBVveHSFYO-ee39C14SUEX6DUU7U)
 <!-- 2023.10.22 -->
 - link : [nestjs cookies](https://codegear.tistory.com/78)
 - link : [nestjs validator](https://codegear.tistory.com/76)
@@ -27,6 +30,7 @@
     - link : [@EntityRepository deprecated 에 따른 해법](https://velog.io/@sheoae12/NestJS-Custom-Repository-%EB%A7%8C%EB%93%A4%EA%B8%B0)
         - @EntityRespository 를 사용할 경우 sample.module.ts 내 ```providers``` 에 SampleRepository 를 기입하지 않아도 되지만, 새로운 방법에서는 SampleRepository 에 @Injectable 을 적용하기 때문에 꼭 기입해줘야 한다.
 - link : [nestjs typeorm 적용하기](https://codegear.tistory.com/67)
+    - link : [typeorm 이용해서 string 'null' 이 아닌 null 넣는 방법](https://stackoverflow.com/questions/64635617/how-to-set-a-nullable-database-field-to-null-with-typeorm)
     - 주의 synchronize: true는 운영에서는 사용하지 마세요. 
     - 적용순서
         1. app.module 에 mysql 정보 등록

@@ -1,5 +1,8 @@
 # AWS
 
+## IAM
+- link : [개발자용 IAM 생성방법](https://ncookie21.tistory.com/18)
+
 ## EC2
 - link : [aws 공식문서(연결 유휴 제한 시간)](https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/application/application-load-balancers.html#connection-idle-timeout)
 - link : [NestJS 혹은 Express에서 간헐적으로 502 응답이 오는 경우](https://velog.io/@dramatic/NestJS-%ED%98%B9%EC%9D%80-Express%EC%97%90%EC%84%9C-%EA%B0%84%ED%97%90%EC%A0%81%EC%9C%BC%EB%A1%9C-502-%EC%9D%91%EB%8B%B5%EC%9D%B4-%EC%98%A4%EB%8A%94-%EA%B2%BD%EC%9A%B0)
