@@ -1,7 +1,8 @@
 # NESTJS
 <!-- 2023.10.24 -->
 - link : [nestjs configModule 사용하기](https://velog.io/@kakasoo/Nest%EC%97%90%EC%84%9C-ConfigModule-TypeORM-%EC%93%B0%EA%B8%B0)
-- link : [nestjs multer(file upload)](eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTY5ODExMTA2NCwiZXhwIjoxNzAxNzExMDY0fQ._ZRh6NYlUn2y64ZGBVveHSFYO-ee39C14SUEX6DUU7U)
+- link : [nestjs multer(file upload)](https://lee-eonsang.com/blog/fileupload-with-multer)
+    - multer-s3 라이브러리는 es6 구문이 아닌 commonJs 구문으로 사용해야한다.
 <!-- 2023.10.22 -->
 - link : [nestjs cookies](https://codegear.tistory.com/78)
 - link : [nestjs validator](https://codegear.tistory.com/76)
