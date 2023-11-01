@@ -16,6 +16,7 @@
 - [java](./backend/java/README.md)
 - [spring](./backend/spring/README.md)
 - [c#](./backend/csharp/README.md)
+- [python](./backend/python/README.md)
 ## db
 - [mongodb](./db/mongodb/README.md)
 - [mysql](./db/mysql/README.md)

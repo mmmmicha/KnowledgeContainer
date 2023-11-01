@@ -1,4 +1,7 @@
 # NESTJS
+<!-- 2023.11.01 -->
+- link : [nestjs mongoose](https://www.youtube.com/watch?v=ulfU5vY6I78)
+- link : [nestjs unittest 작성하기](https://www.youtube.com/watch?v=1Vc6Xw8FMpg)
 <!-- 2023.10.24 -->
 - link : [nestjs configModule 사용하기](https://velog.io/@kakasoo/Nest%EC%97%90%EC%84%9C-ConfigModule-TypeORM-%EC%93%B0%EA%B8%B0)
 - link : [nestjs multer(file upload)](https://lee-eonsang.com/blog/fileupload-with-multer)
