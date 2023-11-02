@@ -1,6 +1,10 @@
 # NESTJS
+- Exception
+    - @nestjs/common 라이브러리에 Exception 리스트를 얻을 수 있음
+    - 특별한 경우가 아니면 ```HttpException(message, httpStatus)```를 사용하면 되겠다
 <!-- 2023.11.01 -->
 - link : [nestjs mongoose](https://www.youtube.com/watch?v=ulfU5vY6I78)
+    - link : [nestjs mongoose official site](https://docs.nestjs.com/techniques/mongodb#async-configuration)
 - link : [nestjs unittest 작성하기](https://www.youtube.com/watch?v=1Vc6Xw8FMpg)
 <!-- 2023.10.24 -->
 - link : [nestjs configModule 사용하기](https://velog.io/@kakasoo/Nest%EC%97%90%EC%84%9C-ConfigModule-TypeORM-%EC%93%B0%EA%B8%B0)
