@@ -3,8 +3,6 @@
     - @nestjs/common 라이브러리에 Exception 리스트를 얻을 수 있음
     - 특별한 경우가 아니면 ```HttpException(message, httpStatus)```를 사용하면 되겠다
 <!-- 2023.11.01 -->
-- link : [nestjs mongoose](https://www.youtube.com/watch?v=ulfU5vY6I78)
-    - link : [nestjs mongoose official site](https://docs.nestjs.com/techniques/mongodb#async-configuration)
 - link : [nestjs unittest 작성하기](https://www.youtube.com/watch?v=1Vc6Xw8FMpg)
 <!-- 2023.10.24 -->
 - link : [nestjs configModule 사용하기](https://velog.io/@kakasoo/Nest%EC%97%90%EC%84%9C-ConfigModule-TypeORM-%EC%93%B0%EA%B8%B0)
@@ -87,3 +85,8 @@
         ```
 - link : [nestjs 란?](https://codegear.tistory.com/53)
     - Node.js의 높은 자유도로 인해 Architecture 구성이 어렵고 효과적이지 못했습니다. 이를 해결하기 위해 Angular의 아키텍처 사상을 기반으로 Nest가 만들어졌습니다.
+
+## mongoose
+- link : [createdAt, updatedAt](https://khajehossini.medium.com/nestjs-createdat-and-updatedat-in-schema-d1ad6cf525e0)
+- link : [nestjs mongoose](https://www.youtube.com/watch?v=ulfU5vY6I78)
+    - link : [nestjs mongoose official site](https://docs.nestjs.com/techniques/mongodb#async-configuration)
