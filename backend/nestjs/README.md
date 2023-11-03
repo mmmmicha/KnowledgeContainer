@@ -90,3 +90,45 @@
 - link : [createdAt, updatedAt](https://khajehossini.medium.com/nestjs-createdat-and-updatedat-in-schema-d1ad6cf525e0)
 - link : [nestjs mongoose](https://www.youtube.com/watch?v=ulfU5vY6I78)
     - link : [nestjs mongoose official site](https://docs.nestjs.com/techniques/mongodb#async-configuration)
+
+## jest
+- *.spec.ts 파일 작성할 때 유의사항
+    - 기존 베이스가 되는 파일이든 위 spec.ts 파일이든 모듈을 import 할때는 항상 상대경로를 이용해야한다.
+- jest 코드 작성 순서
+    1. 필요 변수들 선언
+        - ex) dto, Id, ...
+    2. 필요 모델 생성
+        - ex) const userModel = module.get(getModelToken(User.name))
+    3. 필요 mock 함수 생성
+        - ex) userModel.find = jest.fn().mockResolvedValue(mockUser)
+    4. result
+        - ex) const result = await service.find(Id)
+    5. expect
+        - ex) expect(result).toEqual(mockUser)
+        - ex) expect(userModel.find).toBeCalledWith(Id)
+- jest.fn().mockResolvedValueOnce()
+    - 구현해야 하는 service 함수 내 mocking 의 대상이 되는 함수가 여러번 불려야 하는데 심지어 값이 다를 경우 유용하게 사용할 수 있음.
+    - piping 해서 여러개를 붙일 수 있음
+        - ex) fn().mockResolvedValueOnce().mockResolvedValueOnce()...
+- expect
+    - toBeInstanceOf()
+        - exception 을 비교할 때 유용하게 사용할 수 있음
+            ```
+            try {
+                await service.deleteOne(subId, differentUserId);
+            } catch (error) {
+                expect(error).toBeInstanceOf(UnauthorizedException);
+            }
+            ```
+    - toBeLessThanOrEqual()
+        - new Date() 와 같이 실시간으로 바뀌는 데이터를 비교할 때 유용하다
+        - 단, int / bigInt 만 parameter 로 사용할 수 있다
+            ```
+            expect(result.deletedAt.getTime()).toBeLessThanOrEqual(new Date().getTime());
+            ```
+    - toStrictEqual()
+        - 정의상으론 sorting 된 배열을 비교할 때 사용한다고 하는데 잘 모르겠음
+            ```
+            const sortedFilteredNewsList = filteredNewsList.sort(function(a:any, b:any) { return b.createdAt - a.createdAt });
+        expect(result).toStrictEqual(sortedFilteredNewsList);
+            ```
