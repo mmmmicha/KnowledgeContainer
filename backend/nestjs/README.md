@@ -91,7 +91,8 @@
 - link : [nestjs mongoose](https://www.youtube.com/watch?v=ulfU5vY6I78)
     - link : [nestjs mongoose official site](https://docs.nestjs.com/techniques/mongodb#async-configuration)
 
-## jest
+## @nestjs/jest
+- npm run test src 를 통해 전체 spec 코드 테스트가 가능함
 - *.spec.ts 파일 작성할 때 유의사항
     - 기존 베이스가 되는 파일이든 위 spec.ts 파일이든 모듈을 import 할때는 항상 상대경로를 이용해야한다.
 - jest 코드 작성 순서
@@ -106,10 +107,18 @@
     5. expect
         - ex) expect(result).toEqual(mockUser)
         - ex) expect(userModel.find).toBeCalledWith(Id)
-- jest.fn().mockResolvedValueOnce()
-    - 구현해야 하는 service 함수 내 mocking 의 대상이 되는 함수가 여러번 불려야 하는데 심지어 값이 다를 경우 유용하게 사용할 수 있음.
-    - piping 해서 여러개를 붙일 수 있음
-        - ex) fn().mockResolvedValueOnce().mockResolvedValueOnce()...
+- jest.fn()
+    - .mockResolvedValueOnce()
+        - 구현해야 하는 service 함수 내 mocking 의 대상이 되는 함수가 여러번 불려야 하는데 심지어 값이 다를 경우 유용하게 사용할 수 있음.
+        - piping 해서 여러개를 붙일 수 있음
+            - ex) fn().mockResolvedValueOnce().mockResolvedValueOnce()...
+    - .mockReturnValue()
+        ```
+            pageModel.find = jest.fn().mockReturnValue({
+                lean: jest.fn().mockResolvedValue([mockSubPage]),
+            });
+        ```
+        - 위 예시처럼, '.find()' 를 통해 리턴되는 객체에 대한 파이핑을 설정할 수 있음
 - expect
     - toBeInstanceOf()
         - exception 을 비교할 때 유용하게 사용할 수 있음
@@ -132,3 +141,16 @@
             const sortedFilteredNewsList = filteredNewsList.sort(function(a:any, b:any) { return b.createdAt - a.createdAt });
         expect(result).toStrictEqual(sortedFilteredNewsList);
             ```
+
+## validator
+- 'class-validator', 'class-transformer' 라이브러리 필수
+- 주 사용 데코레이터
+    - @IsNotEmpty()
+    - @IsString()
+    - @IsEnum()
+        - @IsEnum(Enum Class 명, { each: true })
+        - 반드시 Enum 에 존재하는 구성요소들만 들어올 수 있음
+    - @IsArray()
+    - @ArrayNotEmpty()
+    - @MinLength()
+    - @MaxLength()
