@@ -2,7 +2,8 @@
 
 ## Mongoose
 - new mongoose.Types.ObjectId.IsValid()
-    - 내부 로직을 정확히 볼 필요가 있음. 단순히 글자수만 맞췄을 때 validation 을 통과하는 현상 발견함.
+    - 24 words
+    - 0-9 or a-z
 - __v field 는 왜 필요한가?
     ```
         __v 필드는 MongoDB에서 Mongoose와 같은 ODM(Object-Document Mapping) 라이브러리와 함께 사용될 때 자주 나타나는 필드입니다. 이 필드는 문서의 버전을 나타내며 다음과 같은 이유로 필요합니다s:
