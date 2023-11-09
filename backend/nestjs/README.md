@@ -158,3 +158,22 @@
     - @ArrayNotEmpty()
     - @MinLength()
     - @MaxLength()
+
+## configuration
+- link : [nestjs configuration(official)](https://docs.nestjs.com/techniques/configuration)
+- configService를 inject하는 과정에서 interface 를 generic 으로 사용할 수 있음
+    - 추가적으로 그 interface 의 옵션대로 auto-changing해주는 ```infer```라는 옵션이 있음
+    ```
+        interface EnvironmentVariables {
+        PORT: number;
+        TIMEOUT: string;
+        }
+
+        // somewhere in the code
+        constructor(private configService: ConfigService<EnvironmentVariables>) {
+        const port = this.configService.get('PORT', { infer: true });
+
+        // TypeScript Error: this is invalid as the URL property is not defined in EnvironmentVariables
+        const url = this.configService.get('URL', { infer: true });
+        }
+    ```
