@@ -91,7 +91,9 @@
 - link : [nestjs mongoose](https://www.youtube.com/watch?v=ulfU5vY6I78)
     - link : [nestjs mongoose official site](https://docs.nestjs.com/techniques/mongodb#async-configuration)
 
-## @nestjs/jest
+## testing
+- link : [nestjs testing(official)](https://docs.nestjs.com/fundamentals/testing)
+### @nestjs/jest
 - npm run test src 를 통해 전체 spec 코드 테스트가 가능함
 - *.spec.ts 파일 작성할 때 유의사항
     - 기존 베이스가 되는 파일이든 위 spec.ts 파일이든 모듈을 import 할때는 항상 상대경로를 이용해야한다.
