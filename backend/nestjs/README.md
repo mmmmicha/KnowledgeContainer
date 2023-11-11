@@ -145,6 +145,7 @@
             ```
 
 ## validator
+- @Param()으로 받아온 데이터의 경우도 DTO와 같은 클래스를 생성하여 class-validator를 적용한 상태로 타입명시를 하게되면 ValidationPipe의 영향을 받을 수 있음
 - usePipes
     - @UsePipes(new ValidationPipe({ whitelist: true, forbidNonWhitelisted: true }))
     - 기본적으로 Nestjs 의 request body 와 dto 의 조합은 dto 에 명시되어 있지 않은 필드들을 거르지 못함. 따라서 위와 같이 처리를 해야 이를 막을 수 있음
