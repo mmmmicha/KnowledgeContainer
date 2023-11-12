@@ -149,6 +149,7 @@
 - usePipes
     - @UsePipes(new ValidationPipe({ whitelist: true, forbidNonWhitelisted: true }))
     - 기본적으로 Nestjs 의 request body 와 dto 의 조합은 dto 에 명시되어 있지 않은 필드들을 거르지 못함. 따라서 위와 같이 처리를 해야 이를 막을 수 있음
+    - whitelist: true 옵션이 없이 forbidNonWhitelisted: true 옵션만 있으면 모든 요소들을 통과시키게된다. 제대로 동작하지 않으니 주의해야 함
 - 'class-validator', 'class-transformer' 라이브러리 필수
 - 주 사용 데코레이터
     - @IsMongoId()
