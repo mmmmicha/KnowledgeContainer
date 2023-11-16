@@ -38,13 +38,13 @@
 - [hyperledger fabric](./blockchain/hyperledger%20fabric/README.md)
 - [web3](./blockchain/web3/README.md)
 ## [etc](./etc/README.md)
+- [openapi](./etc/openapi/README.md)
+- [blog](./etc/blog/README.md)
 - [macbook](./etc/macbook/README.md)
 - [git](./etc/git/README.md)
 - [google api](./etc/googleapi/README.md)
 - [design pattern](./etc/design%20pattern/README.md)
+- [architecture pattern](./etc/architecture%20pattern/README.md)
 - [crypto](./etc/crypto/README.md)
 - [protocol](./etc/protocol/README.md)
 - [codingtest](./etc/codingtest/README.md)
-
-    
-   
