@@ -31,7 +31,8 @@
 ## frontend
 - [nextjs](./frontend/nextjs/README.md)
 - [reactjs](./frontend/reactjs/README.md)
-- [typescript](./frontend/typescript/README.md)
+- [ts(typescript)](./frontend/ts/README.md)
+- [js(javascript)](./frontend/js/README.md)
 - [jquery](./frontend/jquery/README.md)
 ## [network](./network/README.md)
 ## [blockchain](./blockchain/README.md)

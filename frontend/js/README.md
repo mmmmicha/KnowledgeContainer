@@ -1,4 +1,5 @@
-# TYPESCRIPT
+# JS(javascript)
+
 <!-- 2023.10.18 -->
 - array
     - ```array.flat```을 사용하면 2차원배열을 1차원배열로 플랫화할 수 있다.
