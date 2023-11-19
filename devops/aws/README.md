@@ -20,6 +20,9 @@
 - link : [istio + NLB 삽질기](https://www.clud.me/11354dd3-48f3-454d-917f-eca8d975e034)
 - link : [EKS 튜토리얼 part1](https://cwal.tistory.com/33)
 
+## ECS
+- link : [ECS 톺아보기](https://blog.doctor-cha.com/ecs-in-depth#gijon-inpeura-guseong)
+
 ## RDS
 - rdsadmin 권한으로 parameter 수정하기
 - parameter group 수정하기
