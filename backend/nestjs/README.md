@@ -160,8 +160,10 @@
         - 반드시 Enum 에 존재하는 구성요소들만 들어올 수 있음
     - @IsArray()
     - @ArrayNotEmpty()
-    - @MinLength()
-    - @MaxLength()
+    - @MinLength(), @MaxLength()
+        - String의 길이를 제한할 수 있는 데코레이터
+    - @Min(), @Max()
+        - 숫자의 크기를 제한할 수 있는 데코레이터
 
 ## configuration
 - link : [nestjs configuration(official)](https://docs.nestjs.com/techniques/configuration)
