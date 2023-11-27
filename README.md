@@ -12,12 +12,15 @@
 
 ## backend
 - [nodejs](./backend/nodejs/README.md)
+    - [npm](./backend/nodejs/npm/README.md)
+    - [yarn](./backend/nodejs/yarn/README.md)
 - [nestjs](./backend/nestjs/README.md)
 - [java](./backend/java/README.md)
 - [spring](./backend/spring/README.md)
 - [c#](./backend/csharp/README.md)
 - [python](./backend/python/README.md)
 ## db
+- [postgredb](./db/postgredb/README.md)
 - [mongodb](./db/mongodb/README.md)
 - [mysql](./db/mysql/README.md)
 - [redis](./db/redis/README.md)
