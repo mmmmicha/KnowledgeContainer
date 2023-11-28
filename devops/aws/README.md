@@ -1,5 +1,8 @@
 # AWS
 
+## VPN 서버 구축
+- link : [AWS EC2 - OpenVPN 연동기](https://elishaz.tistory.com/280)
+
 ## IAM
 - link : [개발자용 IAM 생성방법](https://ncookie21.tistory.com/18)
 
@@ -32,3 +35,10 @@
 - link : [VPC 쉽게 이해하기](https://aws-hyoh.tistory.com/53)
 - link : [Private IP of an EC2 instance](https://stackoverflow.com/questions/53180107/private-ip-of-an-ec2-instance)
 - link : [가장쉽게 VPC 개념잡기](https://medium.com/harrythegreat/aws-%EA%B0%80%EC%9E%A5%EC%89%BD%EA%B2%8C-vpc-%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0-71eef95a7098)
+
+### Routing table
+- link : [라우팅 테이블 해석하는 방법](https://stevenjsmin.tistory.com/m/195)
+- link : [라우팅 테이블에 대한 이해](https://codemonkyu.tistory.com/entry/AWS-VPC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-23)
+
+### ACL
+- link : [ACL에 대한 이해](https://rachel0115.tistory.com/entry/AWS-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-ACL-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-NACL)

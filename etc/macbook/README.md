@@ -10,6 +10,7 @@
     - 행주석추가 : ```command + k + c```
     - 행주석삭제 : ```command + k + u```
     - 행커서위아래삽입 : ```option + command + 위 or 아래```
+- link : [Slack 알림 문제 해결](https://slack.com/intl/ko-kr/help/articles/360001559367-Slack-%EC%95%8C%EB%A6%BC-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)
 
 ## 단축키
 - 화면 캡쳐 : ```shift + command + 4```
