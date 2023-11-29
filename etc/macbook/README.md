@@ -11,6 +11,7 @@
     - 행주석삭제 : ```command + k + u```
     - 행커서위아래삽입 : ```option + command + 위 or 아래```
 - link : [Slack 알림 문제 해결](https://slack.com/intl/ko-kr/help/articles/360001559367-Slack-%EC%95%8C%EB%A6%BC-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)
+- link : [확장된 모니터에 dock적용하기](https://psyinteractive.tistory.com/entry/Mac-%EB%A7%A5%EC%97%90%EC%84%9C-dock%EC%9D%84-%EB%B3%B4%EC%A1%B0-%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EB%8A%94-%EA%B0%84%EB%8B%A8%ED%95%9C-%EB%B0%A9%EB%B2%95)
 
 ## 단축키
 - 화면 캡쳐 : ```shift + command + 4```

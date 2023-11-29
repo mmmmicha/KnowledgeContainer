@@ -37,7 +37,7 @@
 - link : [event module](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-require-%EB%AA%A8%EB%93%88)
 - link : [child_process](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-childprocess-%EB%AA%A8%EB%93%88)
 - link : [Worker_Threads 모듈 (멀티 쓰레드 구현)](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-workerthreads-%EB%AA%A8%EB%93%88?category=890802)
-- link : [module:repl](https://runebook.dev/ko/docs/node/repl)
+- link : [module:repl](https://runebook.dev/ko/docs/node/repl)<!-- 링크 유실 -->
 <!-- 2023.10.11 -->
 - link : [nodejs 동작 완벽 이해](https://www.builder.io/blog/visual-guide-to-nodejs-event-loop)
     - link : [(sub)javascript 엔진과 브라우저, nodejs의 동작 이해](https://inpa.tistory.com/entry/%F0%9F%94%84-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84-%EA%B5%AC%EC%A1%B0-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC)
