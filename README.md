@@ -20,7 +20,7 @@
 - [c#](./backend/csharp/README.md)
 - [python](./backend/python/README.md)
 ## db
-- [postgredb](./db/postgredb/README.md)
+- [postgres](./db/postgres/README.md)
 - [mongodb](./db/mongodb/README.md)
 - [mysql](./db/mysql/README.md)
 - [redis](./db/redis/README.md)

@@ -14,3 +14,6 @@
 
 - link : [Why You Should Think Twice Before Using console.log, and Tips for Avoiding Performance Pitfalls](https://medium.com/@xiaweiliang94/why-you-should-think-twice-before-using-console-log-and-tips-for-avoiding-performance-pitfalls-1228efc27360)
     - 정리하자면, console.log() 에 사용되는 argument를 string으로 serialization하는 과정에서 메모리소요가 커져서 퍼포먼스에 영향을 끼치는게 저명하다.
+
+<!-- 우선 기록해둠. 좀 더 좋은 레퍼런스 찾아야함 -->
+- link : [sort() 내장 함수는 어떤 알고리즘으로 동작하는가?](https://choyeon-dev.tistory.com/entry/JavaScript%EC%9D%98-sort%EB%8A%94-%EC%96%B4%EB%96%A4-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C)
