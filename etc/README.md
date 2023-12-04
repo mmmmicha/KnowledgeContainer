@@ -1,6 +1,8 @@
 # ETC
 - 아직 분류가 제대로 되지 않은 지식들
 
+- link : [Authentication(인증) vs Authorization(권한)](https://baek.dev/post/24/)
+
 - link : [테스트 명장, Apache JMeter](https://jybaek.tistory.com/889)
     
 ## 캐시서버(Cache Server)
