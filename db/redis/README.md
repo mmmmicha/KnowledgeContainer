@@ -10,6 +10,8 @@
 
 ## ZSET
 - link : [ZSET 명령어의 모든 것](https://luran.me/381)
+- link : [ZINTERSTORE](https://redis.io/commands/zinterstore/)
+- link : [ZUNIONSTORE](https://redis.io/commands/zunionstore/)
 
 ## 구동
 - link : [docker로 redis local 구동하기](https://hirlawldo.tistory.com/186)
