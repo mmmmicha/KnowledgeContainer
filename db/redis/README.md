@@ -13,6 +13,8 @@
 - link : [ZINTERSTORE](https://redis.io/commands/zinterstore/)
 - link : [ZUNIONSTORE](https://redis.io/commands/zunionstore/)
 - link : [SMEMBERS](https://redis.io/commands/smembers/)
+- link : [SREM](https://redis.io/commands/srem/)
+- link : [ZINCRBY](https://redis.io/commands/zincrby/)
 
 ## 구동
 - link : [docker로 redis local 구동하기](https://hirlawldo.tistory.com/186)

@@ -1,9 +1,11 @@
 # JS(javascript)
 
+- link : [reduce()](https://miiingo.tistory.com/365)
 <!-- 2023.10.18 -->
 - link : [promise.all() vs promise.allSettled()](https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-%EB%8D%94%EC%9D%B4%EC%83%81-Promiseall-%EC%93%B0%EC%A7%80%EB%A7%90%EA%B3%A0-PromiseallSettled-%EC%82%AC%EC%9A%A9%ED%95%98%EC%9E%90)
 - array
     - ```array.flat```을 사용하면 2차원배열을 1차원배열로 플랫화할 수 있다.
+    - link : [flatMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
 - link : [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - link : [prototype chains](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - link : [anonymous functions](https://www.javascripttutorial.net/javascript-anonymous-functions/)
