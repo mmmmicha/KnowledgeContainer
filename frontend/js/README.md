@@ -20,3 +20,8 @@
 
 <!-- 우선 기록해둠. 좀 더 좋은 레퍼런스 찾아야함 -->
 - link : [sort() 내장 함수는 어떤 알고리즘으로 동작하는가?](https://choyeon-dev.tistory.com/entry/JavaScript%EC%9D%98-sort%EB%8A%94-%EC%96%B4%EB%96%A4-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C)
+
+## Web api
+- link : [event.preventDefault()](https://week-book.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-preventDefault-%EC%A0%95%EB%A6%AC)
+- link : [Window.localStorage](https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage)
+- link : [location](https://developer.mozilla.org/en-US/docs/Web/API/Location)
