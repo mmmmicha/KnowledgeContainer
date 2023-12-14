@@ -1,5 +1,15 @@
 # AWS
 
+## CloudWatch
+- link : [Filter pattern](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/FilterAndPatternSyntax.html#matching-terms-events)
+    - JSON로그 검색방법
+        - ex
+            ```
+                { $.name = %아무개% } // 아무개 contain
+                { $.name = 아무개 } // 아무개 equal
+                { ($.name = %아무개%) && ($.age = 10) } // name 아무개 contain and age 10 equal
+            ```
+
 ## S3
 - link : [S3 정적 웹사이트 호스팅](https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-S3-%EC%A0%95%EC%A0%81-%EC%9B%B9-%EC%82%AC%EC%9D%B4%ED%8A%B8-%ED%98%B8%EC%8A%A4%ED%8C%85-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%A4%EC%A0%95Route-53)
 
