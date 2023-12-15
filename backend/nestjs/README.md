@@ -184,6 +184,9 @@
         }
     ```
 
+## rate limiter
+- link : [nestjs rate limiter(official)](https://docs.nestjs.com/security/rate-limiting)
+
 ## openapi
 - link : [nestjs openapi(official)](https://docs.nestjs.com/openapi/introduction)
 

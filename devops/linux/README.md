@@ -6,3 +6,6 @@
 ## ssh(Secure Shell)
 - link : [ssh란?](https://jootc.com/p/201808031460)
 - 보안이 아주 강한 통신 프로토콜
+
+## apt
+- link : [gnu make 설치방법](https://www.woobi.org/54)
