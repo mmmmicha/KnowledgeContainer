@@ -19,7 +19,8 @@
     apt-get update
     ```
 
-## volum
+## volume
+- link : [docker volume 사용법](https://0902.tistory.com/6)
 
 ## 쿠버네티스(Kubernetes) vs 도커(Docker)
 - keyword : `컨테이너`와 `오케스트레이션`의 이해
