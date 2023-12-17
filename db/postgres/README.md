@@ -11,6 +11,10 @@
 - link : [extension make시 postgres.h 파일 없어서 나는 에러 해결방법](https://stackoverflow.com/questions/56724622/how-to-fix-postgres-h-file-not-found-problem)
 - link : [extension 설치 과정 에러나는 경우 해결 방법](https://effortmakesme.tistory.com/32)
 - link : [postgres extension](https://bitnine.tistory.com/536)
+    ```
+    make USE_PGXS=1
+    make USE_PGXS=1 install
+    ```
 
 ## CRUD
 - Update
