@@ -17,6 +17,7 @@
 - link : [AWS EC2 - OpenVPN 연동기](https://elishaz.tistory.com/280)
 
 ## IAM
+- link : [MFA 디바이스 할당](https://lamanus.kr/106)
 - link : [개발자용 IAM 생성방법](https://ncookie21.tistory.com/18)
 
 ## EC2
@@ -40,6 +41,7 @@
 - link : [ECS 톺아보기](https://blog.doctor-cha.com/ecs-in-depth#gijon-inpeura-guseong)
 
 ## RDS
+- link : [RDS가 퍼블릭 서브넷에 속해있는데 퍼블릭 접근이 안되는 건에 대하여](https://repost.aws/ko/knowledge-center/rds-connectivity-instance-subnet-vpc)
 - rdsadmin 권한으로 parameter 수정하기
 - parameter group 수정하기
 - 직접적으로 rdsadmin 으로 로그인해서 수정하는 것 불가능

@@ -5,8 +5,14 @@
 - link : [깃허브 사용법(입문)](https://homeproject.tistory.com/9)
 - link : [Git의 동작 원리](https://ndb796.tistory.com/187)
 
+## Fetch
+- link : [git pull vs fetch](https://www.freecodecamp.org/korean/news/git-fetch-vs-pull/)
+
 ## Merge
 - link : [Merge vs Squash and Merge vs Rebase and Merge](https://im-developer.tistory.com/182)
+
+## Rebase
+- link : [Rebase 교과서](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-Rebase-%ED%95%98%EA%B8%B0)
 
 ## Git Authentication
 - link : [깃 토큰 이용한 권한사용](https://whoyoung90.tistory.com/25)
