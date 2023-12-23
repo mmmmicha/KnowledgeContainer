@@ -57,3 +57,6 @@
 
 ### ACL
 - link : [ACL에 대한 이해](https://rachel0115.tistory.com/entry/AWS-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-ACL-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-NACL)
+
+## Parameter Store
+- link : [파라미터 스토어](https://gksdudrb922.tistory.com/199)
