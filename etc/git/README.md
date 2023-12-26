@@ -33,5 +33,8 @@
 - link : [깃허브 뱃지로 이쁘게 꾸미기](https://cocoon1787.tistory.com/689)
     - link : [simple icons](https://simpleicons.org/?q=linked)
 
+## Github Action
+- link : [Github Actions 적용기](https://tech.kakaoenterprise.com/180)
+
 ## Github Environment
 - link : [GitHub Actions 워크플로우의 승인 기능 사용하기](https://blog.outsider.ne.kr/1556)
