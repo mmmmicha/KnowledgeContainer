@@ -31,6 +31,7 @@
 - [docker](./devops/docker/README.md)
 - [k8s](./devops/k8s/README.md)
 - [linux](./devops/linux/README.md)
+- [kafka](./devops/kafka/README.md)
 ## frontend
 - [nextjs](./frontend/nextjs/README.md)
 - [reactjs](./frontend/reactjs/README.md)
