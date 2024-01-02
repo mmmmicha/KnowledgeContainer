@@ -16,6 +16,10 @@
     make USE_PGXS=1 install
     ```
 
+## Function
+- ```NOW()```: 현재 시간을 반환하는 함수(with Timezone)
+    - ```NOW() :: timestamp```: without Timezone
+
 ## CRUD
 - Update
     - string을 수정할 시, 세팅할 값을 ```작은따옴표```로 감싸야 한다.(큰따옴표 안됨)
