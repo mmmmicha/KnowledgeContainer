@@ -3,9 +3,6 @@
 - link : [reduce()](https://miiingo.tistory.com/365)
 <!-- 2023.10.18 -->
 - link : [promise.all() vs promise.allSettled()](https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-%EB%8D%94%EC%9D%B4%EC%83%81-Promiseall-%EC%93%B0%EC%A7%80%EB%A7%90%EA%B3%A0-PromiseallSettled-%EC%82%AC%EC%9A%A9%ED%95%98%EC%9E%90)
-- array
-    - ```array.flat```을 사용하면 2차원배열을 1차원배열로 플랫화할 수 있다.
-    - link : [flatMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
 - link : [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - link : [prototype chains](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - link : [anonymous functions](https://www.javascripttutorial.net/javascript-anonymous-functions/)
@@ -20,6 +17,10 @@
 
 <!-- 우선 기록해둠. 좀 더 좋은 레퍼런스 찾아야함 -->
 - link : [sort() 내장 함수는 어떤 알고리즘으로 동작하는가?](https://choyeon-dev.tistory.com/entry/JavaScript%EC%9D%98-sort%EB%8A%94-%EC%96%B4%EB%96%A4-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C)
+
+## Array
+- ```array.flat```을 사용하면 2차원배열을 1차원배열로 플랫화할 수 있다.
+- link : [flatMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
 
 ## Set
 - link : [Set to Array](https://hianna.tistory.com/421)
