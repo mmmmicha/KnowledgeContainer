@@ -14,6 +14,7 @@
 - link : [Merge vs Squash and Merge vs Rebase and Merge](https://im-developer.tistory.com/182)
 
 ## Rebase
+- link : [Rebase -i 사용하기(feat.SourceTree)](https://jojoldu.tistory.com/613)
 - link : [Rebase 교과서](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-Rebase-%ED%95%98%EA%B8%B0)
 
 ## Git Authentication
