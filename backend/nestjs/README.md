@@ -192,3 +192,7 @@
 
 ## microservice
 - link : [nestjs microservices(official)]()
+
+## swagger
+- link : [swagger사용 시 주의사항](https://meongae.tistory.com/99)
+    - enum을 사용할 때 @ApiProperty({ enum: })을 사용해야 하는데 잘못해서 @ApiProperty({ type: })을 사용하게 되면 위 에러가 발생할 수 있음
