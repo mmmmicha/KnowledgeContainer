@@ -27,6 +27,17 @@
 - npx prisma migrate dev: 위 3가지 명령어 순차적으로 실행 ( 즉, .sql 만들고 DB에 적용하고 코드에 적용 )
 - prisma db pull
     - 이걸 사용하게 되면 ```schema.prisma```파일이 db 정보로 덮어써지게 된다.(주의요망)
+- prisma format
+    - prisma.schema 파일 내 형식을 맞춰준다.
+    - 1:N 관계에서 1을 나타내는 스키마에 relation을 표시한 후 prisma format을 하면 N을 나타내는 스키마에도 relation이 표시된다.
+
+## prisma syntax
+- prisma.schema.$transaction([func1, func2, func3])
+    - const [res1, res2, res3] 이런식으로 위에 대한 결과를 받을 수 있음
+- prisma.schema.$transaction(async (tx) => {
+    ...
+})
+    - tx.schema.create 이런식으로 사용할 수 있음. 내부에 await를 사용하면서 코드 구성을 할 수 있다는 게 특징
 
 ## schema.prisma
 - @@unique()
