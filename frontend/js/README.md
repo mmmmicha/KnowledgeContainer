@@ -21,6 +21,8 @@
 ## Array
 - ```array.flat```을 사용하면 2차원배열을 1차원배열로 플랫화할 수 있다.
 - link : [flatMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
+- Array.prototype.push(...Array)
+    위 방법을 사용하면 Array의 아이템들이 플랫하게 전부 푸쉬됨
 
 ## Set
 - link : [Set to Array](https://hianna.tistory.com/421)

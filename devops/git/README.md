@@ -12,6 +12,9 @@
 
 ## Merge
 - link : [Merge vs Squash and Merge vs Rebase and Merge](https://im-developer.tistory.com/182)
+- cli
+    - ```git merge 대상브랜치```
+        - 외국은 항상 자기중심이다. 현재 체크아웃한 브랜치에 병합할 대상브랜치로 생각하자
 
 ## Rebase
 - link : [Rebase -i 사용하기(feat.SourceTree)](https://jojoldu.tistory.com/613)

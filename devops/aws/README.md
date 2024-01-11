@@ -12,6 +12,7 @@
 
 ## S3
 - link : [S3 정적 웹사이트 호스팅](https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-S3-%EC%A0%95%EC%A0%81-%EC%9B%B9-%EC%82%AC%EC%9D%B4%ED%8A%B8-%ED%98%B8%EC%8A%A4%ED%8C%85-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%A4%EC%A0%95Route-53)
+    - link : [정적 웹사이트 호스팅에 https 적용](https://sleepybird.tistory.com/144)
 
 ## VPN 서버 구축
 - link : [AWS EC2 - OpenVPN 연동기](https://elishaz.tistory.com/280)
