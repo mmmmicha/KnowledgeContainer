@@ -2,13 +2,10 @@
 - Exception
     - @nestjs/common 라이브러리에 Exception 리스트를 얻을 수 있음
     - 특별한 경우가 아니면 ```HttpException(message, httpStatus)```를 사용하면 되겠다
-<!-- 2023.11.01 -->
 - link : [nestjs unittest 작성하기](https://www.youtube.com/watch?v=1Vc6Xw8FMpg)
-<!-- 2023.10.24 -->
 - link : [nestjs configModule 사용하기](https://velog.io/@kakasoo/Nest%EC%97%90%EC%84%9C-ConfigModule-TypeORM-%EC%93%B0%EA%B8%B0)
 - link : [nestjs multer(file upload)](https://lee-eonsang.com/blog/fileupload-with-multer)
     - multer-s3 라이브러리는 es6 구문이 아닌 commonJs 구문으로 사용해야한다.
-<!-- 2023.10.22 -->
 - link : [nestjs cookies](https://codegear.tistory.com/78)
 - link : [nestjs validator](https://codegear.tistory.com/76)
 - link : [nestjs roles](https://codegear.tistory.com/74)
@@ -16,7 +13,6 @@
         - ```guard``` 를 사용하기 위해서 필요한 interface 이다.
     - link : [reflector 에 대한 이해](https://hwasurr.io/nestjs/caching/)
         - reflector 는 Nestjs에서 제공하는 메타데이터를 다루기 위한 클래스 Reflector의 인스턴스입니다.
-<!-- 2023.10.21 -->
 - link : [nestjs jwt passport](https://codegear.tistory.com/73)
     - 적용
         1. security > passport.jwt.strategy.ts 생성
@@ -31,7 +27,6 @@
     - injection 으로 private ```jwtService``` 를 사용
 - link : [nestjs 비밀번호암호화(bcrypt)](https://codegear.tistory.com/71)
 - link : [nestjs login](https://codegear.tistory.com/70)
-<!-- 2023.10.20 -->
 - link : [nestjs auth 적용하기](https://codegear.tistory.com/68)
     - link : [@EntityRepository deprecated 에 따른 해법](https://velog.io/@sheoae12/NestJS-Custom-Repository-%EB%A7%8C%EB%93%A4%EA%B8%B0)
         - @EntityRespository 를 사용할 경우 sample.module.ts 내 ```providers``` 에 SampleRepository 를 기입하지 않아도 되지만, 새로운 방법에서는 SampleRepository 에 @Injectable 을 적용하기 때문에 꼭 기입해줘야 한다.
@@ -44,7 +39,6 @@
         3. 생성한 entity 를 app.module 내 mysql 정보 내에 등록
         4. 해당 entity 에 해당하는 module.ts 에 imports 및 exports 로 typeorm 등록
         5. service 에 constructor 로 repository 생성한 후 사용
-<!-- 2023.10.19 -->
 - link : [nestjs 미들웨어](https://codegear.tistory.com/63)
     - 미들웨어는 라우터 핸들러 이전에 호출되는 함수
     - ```@Injectable``` 데코레이터를 사용합니다
