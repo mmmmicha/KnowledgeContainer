@@ -23,9 +23,15 @@
 ## Git Authentication
 - link : [깃 토큰 이용한 권한사용](https://whoyoung90.tistory.com/25)
 
-## Git 캐시 삭제 명령어
+## Git 명령어
+- 캐시 삭제
     git rm -r --cached .
     git add .
+- push -f 로 없어진 commit 살리기
+    - git reflog
+    - 위 명령어를 통해 원하는 커밋을 checkout 받을 수 있음
+    - 이 커밋과 현재 문제가 생긴 브랜치를 git diff로 비교하여 알맞은 커밋인지 확인함
+    - 알맞은 커밋이면 git push -f 로 푸시를 함
 
 ## Github Blog
 - link : [prose.io tutorial](https://pchengi2.github.io/using-prose.io-for-posting/)
