@@ -19,6 +19,22 @@
         select: { id: true }
     })
     ```
+- OR
+    - 반드시 대문자로 해야함
+    ```
+    prisma.cat.findMany({
+        where: {
+            OR: {
+                name: {
+                    ...
+                },
+                id: {
+                    ...
+                }
+            }
+        }
+    })
+    ```
 
 ## 명령어
 - npx prisma migrate dev --create-only: draft migration file만 생성 ( 즉, /prisma/migrations/생성시간_이름/migration.sql 생성 )
