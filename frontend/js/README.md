@@ -19,6 +19,7 @@
 - link : [sort() 내장 함수는 어떤 알고리즘으로 동작하는가?](https://choyeon-dev.tistory.com/entry/JavaScript%EC%9D%98-sort%EB%8A%94-%EC%96%B4%EB%96%A4-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C)
 
 ## Array
+- Filter(callbackFn) 에 return 값으로 비교문이 아닌 대입문을 실수로 넣었는데 동작했던 건에 대하여..
 - ```array.flat```을 사용하면 2차원배열을 1차원배열로 플랫화할 수 있다.
 - link : [flatMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
 - Array.prototype.push(...Array)
