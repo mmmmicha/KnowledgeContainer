@@ -19,6 +19,27 @@
 ## Function
 - ```NOW()```: 현재 시간을 반환하는 함수(with Timezone)
     - ```NOW() :: timestamp```: without Timezone
+- [generate_series()](https://sas-study.tistory.com/380)
+- ```COUNT()```에서 ```DISTINCT```를 사용하게 되면 유니크 한 값들로 카운팅을 하게 되기 때문에 기본적인 COUNT()보다는 값이 적게 나온다
+
+## Join
+- [Join의 종류](https://ysyblog.tistory.com/141)
+    - ```cross join```은 1:N의 베이스 테이블 초기 셋팅에 굉장히 유용하다
+    ```
+        // 아래와 같이 사용하면 날짜당 모든 카테고리가 1:N으로 셋팅 된다
+        WITH date_series AS
+        (SELECT DISTINCT
+            date_trunc('week', GENERATE_SERIES('2021-01-01'::date, now(), '1 day')::date + 1)::date - 1 AS day)
+        select dc.day,
+               c.id,
+               c.name
+        from date_series dc
+        cross join "Category" c
+    ```
+
+## Date
+- [postgresql date document official](https://www.postgresql.org/docs/current/functions-datetime.html)
+    - date_trunc() 설명 잘되어 있음
 
 ## CRUD
 - Update
