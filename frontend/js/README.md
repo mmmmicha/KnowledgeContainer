@@ -1,5 +1,6 @@
 # JS(javascript)
 
+- link : [bind()](https://ko.javascript.info/bind)
 - link : [reduce()](https://miiingo.tistory.com/365)
 <!-- 2023.10.18 -->
 - link : [promise.all() vs promise.allSettled()](https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-%EB%8D%94%EC%9D%B4%EC%83%81-Promiseall-%EC%93%B0%EC%A7%80%EB%A7%90%EA%B3%A0-PromiseallSettled-%EC%82%AC%EC%9A%A9%ED%95%98%EC%9E%90)
@@ -32,3 +33,6 @@
 - link : [event.preventDefault()](https://week-book.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-preventDefault-%EC%A0%95%EB%A6%AC)
 - link : [Window.localStorage](https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage)
 - link : [location](https://developer.mozilla.org/en-US/docs/Web/API/Location)
+
+## 클로저
+- link : [클로저](https://developer.mozilla.org/ko/docs/Web/JavaScript/Closures)
