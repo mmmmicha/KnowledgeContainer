@@ -139,6 +139,10 @@
             ```
 
 ## validator
+- class 내부에서 non-null assertion이 사용되는 경우엔 null 체크가 아닌 컴파일러에게 해당 필드가 사용되기 전엔 반드시 defined될 것이라고 얘기하는 역할을 한다고 함. 그렇게 되면 null은 허용하게 되는 것이다.
+    - link: [참고자료](https://stackoverflow.com/questions/49699067/property-has-no-initializer-and-is-not-definitely-assigned-in-the-construc)
+- link : [response에서 validator를 동작시키는 방법](https://medium.com/@kuba.2001/reponse-validation-in-nestjs-0db70b955a6a)
+    - nestjs 내부적으로 intercepting을 하여 response역시 validate를 하는 줄 알았는데 아니었음.
 - @Param()으로 받아온 데이터의 경우도 DTO와 같은 클래스를 생성하여 class-validator를 적용한 상태로 타입명시를 하게되면 ValidationPipe의 영향을 받을 수 있음
 - usePipes
     - @UsePipes(new ValidationPipe({ whitelist: true, forbidNonWhitelisted: true }))

@@ -17,6 +17,8 @@
     ```
 
 ## Function
+- ```RANK()```
+    - link : [row_num, rank](https://new-hero.tistory.com/22)
 - ```NOW()```: 현재 시간을 반환하는 함수(with Timezone)
     - ```NOW() :: timestamp```: without Timezone
 - [generate_series()](https://sas-study.tistory.com/380)

@@ -39,6 +39,9 @@
 - link : [EKS 튜토리얼 part1](https://cwal.tistory.com/33)
 
 ## ECS
+- 로그 설정하기
+    - logConfiguration
+    - 요 부분은 블로그에 작성하고 링크 여기 달기
 - link : [ECS 톺아보기](https://blog.doctor-cha.com/ecs-in-depth#gijon-inpeura-guseong)
 
 ## RDS
