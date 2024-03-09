@@ -11,7 +11,9 @@
     - url 로 들어갔을 때 치명적일 수 있는 문자들이기 때문.
 - 다시 바꿀 땐 역으로. 단, `=` 의 경우 전체 문자의 길이를 4로 나눴을 때 나머지가 나오면 `4-나머지` 만큼 `=` 를 끝에 더한다.
     
-## Encrypt
+## RSA vs ECDSA
+- link : [RSA: What size key is recommended?](https://www.reddit.com/r/cryptography/comments/x3thyz/what_size_key_for_rsa_is_recommended/)
+- link : [RSA vs ECDSA](https://jykim74.tistory.com/132)
 - RSA 암호화
     - 공개키, 개인키 암호화 시스템
 - ecdh(≒secp256r1 ≒nistP256)

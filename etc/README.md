@@ -1,8 +1,8 @@
 # ETC
 - 아직 분류가 제대로 되지 않은 지식들
 
+- link : [SDK vs API](https://doozi0316.tistory.com/entry/SDK-API%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%B0%A8%EC%9D%B4%EC%A0%90)
 - link : [Authentication(인증) vs Authorization(권한)](https://baek.dev/post/24/)
-
 - link : [테스트 명장, Apache JMeter](https://jybaek.tistory.com/889)
     
 ## 캐시서버(Cache Server)
