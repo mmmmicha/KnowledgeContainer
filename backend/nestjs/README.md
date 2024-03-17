@@ -195,5 +195,10 @@
 - link : [swagger사용 시 주의사항](https://meongae.tistory.com/99)
     - enum을 사용할 때 @ApiProperty({ enum: })을 사용해야 하는데 잘못해서 @ApiProperty({ type: })을 사용하게 되면 위 에러가 발생할 수 있음
 
-## Context Excution
-- link : [nestjs excution context(official)](https://docs.nestjs.com/fundamentals/execution-context)
+
+## official site
+- link : [excution context(official)](https://docs.nestjs.com/fundamentals/execution-context)
+- link : [lifecycle events]()
+    - resolve: dependency를 instantiate하는 것
+    - initialize vs instantiate
+    - lifecycle events들은 request-scoped class에 의해서는 trigger되지 않음
