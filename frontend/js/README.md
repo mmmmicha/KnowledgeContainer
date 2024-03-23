@@ -36,3 +36,14 @@
 
 ## 클로저
 - link : [클로저](https://developer.mozilla.org/ko/docs/Web/JavaScript/Closures)
+
+## setTimeout
+- link : [setTimeout을 Promise로 감싼다면?](https://footprint-of-nawin.tistory.com/97)
+
+## spread 문법
+- const { type: a, ...b } = someObject;
+    - someObject내 있었던 type이라는 필드는 a가 aliasing함
+    - b는 type을 제외한 someObject의 모든 필드를 b라는 오브젝트에 담게 됨
+
+## TO DO
+- weakMap이 뭔데?

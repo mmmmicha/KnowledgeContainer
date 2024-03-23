@@ -46,3 +46,6 @@
 ## CRUD
 - Update
     - string을 수정할 시, 세팅할 값을 ```작은따옴표```로 감싸야 한다.(큰따옴표 안됨)
+
+## offset limit
+- link : [offset limit ordering bug](https://stackoverflow.com/questions/13580826/postgresql-repeating-rows-from-limit-offset)
