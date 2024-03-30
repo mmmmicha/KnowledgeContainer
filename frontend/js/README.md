@@ -45,5 +45,8 @@
     - someObject내 있었던 type이라는 필드는 a가 aliasing함
     - b는 type을 제외한 someObject의 모든 필드를 b라는 오브젝트에 담게 됨
 
+## new vs Object.create
+- link : [new vs Object.create](https://clearwater92.tistory.com/11)
+
 ## TO DO
 - weakMap이 뭔데?
