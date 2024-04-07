@@ -163,6 +163,9 @@
     - @Min(), @Max()
         - 숫자의 크기를 제한할 수 있는 데코레이터
 
+## transformer
+- link : [ParseDatePipe](https://github.com/nestjs/nest/issues/12848)
+
 ## configuration
 - link : [nestjs configuration(official)](https://docs.nestjs.com/techniques/configuration)
 - configService를 inject하는 과정에서 interface 를 generic 으로 사용할 수 있음
