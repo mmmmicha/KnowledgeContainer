@@ -5,15 +5,15 @@
 ```
 
 - 매년 3, 6, 9, 12월달은 Knowledge Hub 정리
-    - 잘못된 부분 수정
-    - 디렉토리 정리
+  - 잘못된 부분 수정
+  - 디렉토리 정리
 - 2023.10.07 부터 다시 기록 시작
 
 
 ## backend
 - [nodejs](./backend/nodejs/README.md)
-    - [npm](./backend/nodejs/npm/README.md)
-    - [yarn](./backend/nodejs/yarn/README.md)
+  - [npm](./backend/nodejs/npm/README.md)
+  - [yarn](./backend/nodejs/yarn/README.md)
 - [nestjs](./backend/nestjs/README.md)
 - [java](./backend/java/README.md)
 - [spring](./backend/spring/README.md)
