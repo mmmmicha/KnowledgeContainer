@@ -22,6 +22,7 @@
 - [dotnet](./backend/dotnet/README.md)
 - [serverless framework](./backend/serverless%20framework/README.md)
 - [prisma](./backend/prisma/README.md)
+- [test](./backend/test/README.md)
 ## db
 - [postgres](./db/postgres/README.md)
 - [mongodb](./db/mongodb/README.md)
@@ -48,6 +49,7 @@
 - [hyperledger fabric](./blockchain/hyperledger%20fabric/README.md)
 - [web3](./blockchain/web3/README.md)
 ## [etc](./etc/README.md)
+- [article](./etc/article/README.md)
 - [openapi](./etc/openapi/README.md)
 - [blog](./etc/blog/README.md)
 - [macbook](./etc/macbook/README.md)
