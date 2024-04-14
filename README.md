@@ -24,6 +24,7 @@
 - [prisma](./backend/prisma/README.md)
 - [test](./backend/test/README.md)
 ## db
+- [공통](./db/공통/README.md)
 - [postgres](./db/postgres/README.md)
 - [mongodb](./db/mongodb/README.md)
 - [mysql](./db/mysql/README.md)
