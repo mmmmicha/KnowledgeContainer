@@ -48,5 +48,10 @@
 ## new vs Object.create
 - link : [new vs Object.create](https://clearwater92.tistory.com/11)
 
+## throw
+- 문자열 등 any value를 throw할 수 있지만 에러 인스턴스를 throw하는 이유
+    - Error 인스턴스가 갖는 stacktrace 기능이 가장 크다. 디버깅의 시작점이기 때문. 하지만 string 또는 any value들을 리턴하게 되면 stacktrace를 알 수가 없다.
+    - ref : [throwing strings instead of errors](https://stackoverflow.com/questions/11502052/throwing-strings-instead-of-errors)
+
 ## TO DO
 - weakMap이 뭔데?
