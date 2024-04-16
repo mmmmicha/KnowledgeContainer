@@ -138,7 +138,8 @@
         expect(result).toStrictEqual(sortedFilteredNewsList);
             ```
 
-## validator
+## pipe
+### class-validator
 - class 내부에서 non-null assertion이 사용되는 경우엔 null 체크가 아닌 컴파일러에게 해당 필드가 사용되기 전엔 반드시 defined될 것이라고 얘기하는 역할을 한다고 함. 그렇게 되면 null은 허용하게 되는 것이다.
     - link: [참고자료](https://stackoverflow.com/questions/49699067/property-has-no-initializer-and-is-not-definitely-assigned-in-the-construc)
 - link : [response에서 validator를 동작시키는 방법](https://medium.com/@kuba.2001/reponse-validation-in-nestjs-0db70b955a6a)
@@ -162,8 +163,9 @@
         - String의 길이를 제한할 수 있는 데코레이터
     - @Min(), @Max()
         - 숫자의 크기를 제한할 수 있는 데코레이터
-
-## transformer
+### class-transformer
+- `ParseArrayPipe`는 어떻게 사용하는 게 좋을까?
+    - new ParseArrayPipe(options) 방식으로 사용해야 원하는 타입배열로 파싱이 가능하다. 특히 options.item을 Number로, seperator를 ','(아마도 default) 로 하게 되면 number[] 타입으로 파싱이 가능하다.
 - link : [ParseDatePipe](https://github.com/nestjs/nest/issues/12848)
 
 ## configuration
