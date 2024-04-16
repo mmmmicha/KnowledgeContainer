@@ -1,5 +1,8 @@
 # 공통
 
+## article
+- [NULL을 지양해야하는 이유와 대처방안](https://jungeunpyun.tistory.com/60)
+
 ## 강의(쉬운코딩)
 - [concurrency control 기법 : LOCK & 2PL](https://youtu.be/0PScmeO3Fig?si=5wZV21jb-vci44tb)
 - [isolation level](https://youtu.be/bLLarZTrebU?si=4sbsW6roVaTHilcG)

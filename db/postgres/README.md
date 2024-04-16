@@ -49,3 +49,8 @@
 
 ## offset limit
 - link : [offset limit ordering bug](https://stackoverflow.com/questions/13580826/postgresql-repeating-rows-from-limit-offset)
+
+## ALTER
+- link : [TRUNCATE ... RESTART IDENTITY](https://www.postgresql.org/docs/current/sql-truncate.html)
+    - 요약
+        - `시퀀스`를 초기화해준다.
