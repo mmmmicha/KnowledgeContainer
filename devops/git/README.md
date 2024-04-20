@@ -48,3 +48,6 @@
 
 ## Github Environment
 - link : [GitHub Actions 워크플로우의 승인 기능 사용하기](https://blog.outsider.ne.kr/1556)
+
+## stash
+- 생성한 파일(untracked)에 대한 stash는 `staged` 상태를 만들어야만 stash할 수 있다.
