@@ -45,6 +45,7 @@
 - [js(javascript)](./frontend/js/README.md)
 - [jquery](./frontend/jquery/README.md)
 - [bundler](./frontend/bundler/README.md)
+- [html](./frontend/html/README.md)
 ## [network](./network/README.md)
 ## [blockchain](./blockchain/README.md)
 - [hyperledger fabric](./blockchain/hyperledger%20fabric/README.md)
