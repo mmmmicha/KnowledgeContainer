@@ -25,3 +25,9 @@
 ## 쿠버네티스(Kubernetes) vs 도커(Docker)
 - keyword : `컨테이너`와 `오케스트레이션`의 이해
 - link : [쿠버네티스 vs. 도커 : 컨테이너와 오케스트레이션의 이해](http://www.itworld.co.kr/news/135282)
+
+## docker-compose
+- 명령어  
+    - 실행 `docker-compose up`
+        - 옵션
+            - `-d`: 백그라운드 실행
