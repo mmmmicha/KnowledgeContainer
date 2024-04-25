@@ -47,6 +47,9 @@
     - prisma.schema 파일 내 형식을 맞춰준다.
     - 1:N 관계에서 1을 나타내는 스키마에 relation을 표시한 후 prisma format을 하면 N을 나타내는 스키마에도 relation이 표시된다.
 
+## prisma select
+- `includes` 를 사용하지 않고 `find-` 메서드들을 사용하는 경우 related되어 있는 데이터들은 기본값으로 조회할 수 없다.
+
 ## prisma syntax
 - prisma.schema.$transaction([func1, func2, func3])
     - const [res1, res2, res3] 이런식으로 위에 대한 결과를 받을 수 있음
