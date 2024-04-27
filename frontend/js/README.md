@@ -53,5 +53,13 @@
     - Error 인스턴스가 갖는 stacktrace 기능이 가장 크다. 디버깅의 시작점이기 때문. 하지만 string 또는 any value들을 리턴하게 되면 stacktrace를 알 수가 없다.
     - ref : [throwing strings instead of errors](https://stackoverflow.com/questions/11502052/throwing-strings-instead-of-errors)
 
+## 복사
+- `얕은 복사` vs `깊은 복사`
+    - ref: https://ko.javascript.info/object-copy
+    - 기본적으로 depth가 1인 객체의 경우 `Object.assign`을 통해 `복제`가 가능하다.(주소값이 다른 새로운 객체가 생성된다는 말이다)
+    - 여기서 주의할 점은 depth가 2이상인 경우(특히, depth 2에 중첩객체가 존재하는 경우)에는 말이 좀 달라진다.
+        - `Object.assign`을 통해서 대표하는 객체는 새로운 주소값을 할당받지만 내부 중첩객체는 해당 객체의 주소값이 얕은복사 취급된다.(예시는 위 ref에 잘 나와있다)
+    - 따라서 depth 2 이상의 중첩객체를 복제하고 싶은 경우에는 `깊은 복사`를 해야하고 lodash의 `_.cloneDeep`을 이용하면 된다.
+
 ## TO DO
 - weakMap이 뭔데?
