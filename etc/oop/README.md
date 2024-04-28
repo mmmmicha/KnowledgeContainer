@@ -1,4 +1,5 @@
 # OOP(Object Oriented Programming)
+- link : [Growing Application - 2nd. 애플리케이션 아키텍처와 객체지향](https://www.youtube.com/watch?v=26S4VFUWlJM)
 - link : [(명작)Anti-OOP : if 를 피하고 싶어서](https://redutan.github.io/2016/03/31/anti-oop-if)
 
 - 부모 객체로서 `interface` vs `abstract class`
