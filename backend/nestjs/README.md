@@ -207,3 +207,11 @@
     - resolve: dependency를 instantiate하는 것
     - initialize vs instantiate
     - lifecycle events들은 request-scoped class에 의해서는 trigger되지 않음
+
+## Module
+- 모듈의 역할을 명확히 나눠라
+    - `module`들이 모여있는 hub의 역할인지? `provider`들을 제공하는 대표 module의 역할인지?
+    - 전자라면 웬만하면 모듈내부에 `imports`만 채울 것
+    - 후자라면 `providers`를 우선적으로 채우고, 그 다음 `providers`에 주입한 비즈니스 클래스들에 주입될 다른 providers를 가지고 있는 모듈들을 `imports`하고 모든 종속성 정리가 끝났으면 상황에 맞게 `exports`로 providers를 내보내준다(controllers는 필요할 경우 사용)
+- 어느 특정 모듈에서 이미 `providers`에 injection한 비즈니스 클래스들의 경우 `절대로 다른 모듈에 이중으로 injection하지 말 것`
+    - 필요할 경우 이미 injection한 module을 imports하여 사용할 것
