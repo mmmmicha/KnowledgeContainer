@@ -4,6 +4,13 @@
 - [NULL을 지양해야하는 이유와 대처방안](https://jungeunpyun.tistory.com/60)
 
 ## 강의(쉬운코딩)
+- [파티셔닝, 샤딩, 레플리케이션](https://youtu.be/P7LqaEO-nGU?si=puL8SZdTfjV-W7r9)
+    - `파티셔닝`: 물리적 서버 한 곳에 테이블을 vertical 또는 horizontal 방식으로 쪼개는 것
+    - `샤딩`: horizontal 파티셔닝을 한 테이블들을 여러 물리적 서버에 분산하여 저장하는 것
+    - `레플리케이션`: 원본 데이터베이스의 복제본들을 여러 물리적 서버에 분산하여 저장하는 것
+        - `master`, `slave`의 구조로 나눠서 master는 write/read 역할 모두를, slave는 read의 역할을 지니게끔 설정이 가능함
+            - 이에 따라 read에 대한 요청이 write에 대한 요청보다 월등히 많은 보통의 서버들은 read에 집중된 역할을 지니게끔하는 레플리카를 여러개 두어 효율을 높일 수 있음
+            - `master`가 죽을 경우 `slave`가 역할을 위임받아 failover가 가능함
 - [DB index](https://www.youtube.com/watch?v=IMDH4iAQ6zM)
     - `B-tree 인덱스`
         - 해당 인덱스 테이블에서의 서칭은 `바이너리서치`를 이용한다. O(logn)의 시간복잡도를 갖는다.
