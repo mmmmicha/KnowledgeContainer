@@ -164,6 +164,9 @@
     - @Min(), @Max()
         - 숫자의 크기를 제한할 수 있는 데코레이터
 ### class-transformer
+- `@Type()`
+    - `@Type(() => Something)` 이런식의 데코레이터를 클래스 멤버변수 위에 붙이게 되면 `new Something(value)`를 하여 return을 한다.
+    - null의 경우 그냥 null로 return한다.
 - `ParseArrayPipe`는 어떻게 사용하는 게 좋을까?
     - new ParseArrayPipe(options) 방식으로 사용해야 원하는 타입배열로 파싱이 가능하다. 특히 options.item을 Number로, seperator를 ','(아마도 default) 로 하게 되면 number[] 타입으로 파싱이 가능하다.
 - link : [ParseDatePipe](https://github.com/nestjs/nest/issues/12848)
