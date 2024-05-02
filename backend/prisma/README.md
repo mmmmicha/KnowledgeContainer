@@ -1,6 +1,14 @@
 # PRISMA
 - link : [select vs include in NESTJS Prisma](https://stackoverflow.com/questions/69679956/nestjs-prisma-orm-using-select-versus-include-when-fetching-data-records)
 
+## Connection Pool
+- 기본적으로 `new PrismaClient()`를 통해 프리즈마 인스턴스를 만들때마다 커넥션풀이 생성된다.
+- 커넥션풀은 상당히 조심히 다뤄야한다. DB마다 정해진 커넥션풀의 물리량이 있고, 이를 모두 특정 서버에서 할당받아 사용할 경우 다른 서버들은 해당 DB와 커넥션을 맺지못한채 기다려야하는 상황이 생긴다.
+- 커넥션풀은 커넥션의 생명을 계속 유지하면서 빌려주고 반납받는 식으로 커넥션을 관리한다.
+    - TCP 연결을 통해 소켓을 열어두고 세션을 계속 유지하는 것이다.
+- Prisma는 쿼리요청이 있을 경우 가용한 커넥션을 커넥션풀내에서 할당한다.
+- 커넥션풀내에 있는 모든 커넥션이 할당된 경우엔 다른 쿼리들이 프리즈마 큐에서 커넥션을 할당받길 기다린다. 이때 큐에서 기다리는 waitTime을 설정할 수도 있다.
+
 ## query option
 - contains
     - like 조건과 같음
