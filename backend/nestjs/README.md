@@ -197,6 +197,7 @@
 - link : [nestjs microservices(official)](https://docs.nestjs.com/microservices/kafka)
 
 ## swagger
+- `@Type(() => Something)`을 사용하는 경우 `@ApiProperty({ type: Something })`을 추가해주지 않으면 스웨거에서 해당 타입을 볼 수 없다.
 - link : [swagger사용 시 주의사항](https://meongae.tistory.com/99)
     - enum을 사용할 때 @ApiProperty({ enum: })을 사용해야 하는데 잘못해서 @ApiProperty({ type: })을 사용하게 되면 위 에러가 발생할 수 있음
 
