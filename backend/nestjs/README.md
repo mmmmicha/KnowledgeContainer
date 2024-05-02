@@ -164,6 +164,11 @@
     - @Min(), @Max()
         - 숫자의 크기를 제한할 수 있는 데코레이터
 ### class-transformer
+- `plainToInstacne` vs `instanceToPlain`
+    - js는 기본적으로 http api에서 plainToClass를 지원해주지 않는다.(참고로 response body에 담겨서 전달되는 데이터는 클래스가 아니라 그저 리터럴 객체이다)
+    - 리터럴 객체를 위한 도메인 타입을 만들어두지 않은 상태에서 리터럴 객체 그 자체로 사용을 하게 되면 책임 소지가 없어진다.
+    - 이런 부분에서 유용하게 사용할 수 있는 것이 `plainToInstance`이다. 리터럴 객체를 도메인 모델의 인스턴스로 만들어줌으로써 객체로써의 책임이 생겨난다.
+        - ref: https://jojoldu.tistory.com/617
 - `@Type()`
     - `@Type(() => Something)` 이런식의 데코레이터를 클래스 멤버변수 위에 붙이게 되면 `new Something(value)`를 하여 return을 한다.
     - null의 경우 그냥 null로 return한다.
