@@ -224,3 +224,7 @@
     - 후자라면 `providers`를 우선적으로 채우고, 그 다음 `providers`에 주입한 비즈니스 클래스들에 주입될 다른 providers를 가지고 있는 모듈들을 `imports`하고 모든 종속성 정리가 끝났으면 상황에 맞게 `exports`로 providers를 내보내준다(controllers는 필요할 경우 사용)
 - 어느 특정 모듈에서 이미 `providers`에 injection한 비즈니스 클래스들의 경우 `절대로 다른 모듈에 이중으로 injection하지 말 것`
     - 필요할 경우 이미 injection한 module을 imports하여 사용할 것
+
+## bullqueue
+- bullqueue는 nestjs에서 호환하는 redis를 이용한 메세지 큐를 구현한 라이브러리이다.
+- `kafka`와 다형성을 갖기때문에 개발환경(개발, 프로덕트 등..)에 따라 요긴하게 바꿔끼워서 사용할 수 있다.
