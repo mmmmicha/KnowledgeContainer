@@ -17,6 +17,8 @@
     ```
 
 ## Function
+- ```LN()```
+    - loge 를 씌운 값을 반환한다.
 - ```RANK()```
     - link : [row_num, rank](https://new-hero.tistory.com/22)
 - ```NOW()```: 현재 시간을 반환하는 함수(with Timezone)
