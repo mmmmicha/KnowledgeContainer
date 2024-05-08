@@ -17,6 +17,13 @@
     ```
 
 ## Function
+- ```window function```
+    - 대표적으로 `OVER(PARTITION BY something1, ORDER BY something2)`
+    - ref : https://postgresql.kr/docs/9.3/tutorial-window.html
+- ```NULLIF(value, replaceValue)```
+    - value가 null일 경우 replaceValue를 반환한다.
+- ```LN()```
+    - loge 를 씌운 값을 반환한다.
 - ```RANK()```
     - link : [row_num, rank](https://new-hero.tistory.com/22)
 - ```NOW()```: 현재 시간을 반환하는 함수(with Timezone)
