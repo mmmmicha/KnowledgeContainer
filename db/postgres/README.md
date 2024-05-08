@@ -46,6 +46,10 @@
         cross join "Category" c
     ```
 
+## Type
+- `Date` vs `Timestamp`
+    - link : [(강추)official doc](https://www.postgresql.org/docs/current/functions-datetime.html)
+
 ## Date
 - [postgresql date document official](https://www.postgresql.org/docs/current/functions-datetime.html)
     - date_trunc() 설명 잘되어 있음
