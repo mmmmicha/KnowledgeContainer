@@ -4,6 +4,13 @@
 - 마주보는 두 개의 계층만 상호작용이 가능
 - 특정계층만 교체해 시스템을 개선하는 것이 가능
 - ex) OSI 참조 모델
+- `Layered Architecture`라고도 함
+    - [기초 아티클](https://hudi.blog/layered-architecture/)
+- `4-tier layer`를 많이 사용하는 편이다.
+    - `presentation`: view, controller
+    - `business`: service, domain model
+    - `persistence`: repository, dao
+    - `database`: database
 ## 클라이언트-서버 패턴(Client-Server pattern)
 - 하나의 서버 컴포넌트와 다수의 클라이언트 컴포넌트로 구성되는 패턴
 - 사용자 -> 클라이언트 -> 서버 -> 클라이언트 -> 사용자
