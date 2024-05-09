@@ -31,6 +31,9 @@
 - [redis](./db/redis/README.md)
 - [oracle](./db/oracle/README.md)
 - [bigdata](./db/bigdata/README.md)
+## architecture
+- [공통](./architecture/공통/README.md)
+- [layered](./architecture/layered/README.md)
 ## devops
 - [aws](./devops/aws/README.md)
 - [docker](./devops/docker/README.md)
@@ -58,7 +61,6 @@
 - [macbook](./etc/macbook/README.md)
 - [google api](./etc/googleapi/README.md)
 - [design pattern](./etc/design%20pattern/README.md)
-- [architecture pattern](./etc/architecture%20pattern/README.md)
 - [crypto](./etc/crypto/README.md)
 - [protocol](./etc/protocol/README.md)
 - [codingtest](./etc/codingtest/README.md)
