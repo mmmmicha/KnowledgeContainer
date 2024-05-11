@@ -28,6 +28,9 @@
 - link : [AWS Beanstalk 구성파일(.ebextensions)을 사용하여 환경 구성하기](https://ibks-platform.tistory.com/174)
 - link : [AWS t4g 인스턴스 사용기 (with 도커)](https://velog.io/@infl_veggie/AWS-t4g-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%82%AC%EC%9A%A9%EA%B8%B0-with-%EB%8F%84%EC%BB%A4)
 
+### 스팟 인스턴스
+- link : [스팟 인스턴스 정보](https://blog.leedoing.com/178)
+
 ## Elastic Beanstalk(EB)
 - link : [9분 59초 만에 Github Action + AWS Elastic Beanstalk로 TS 프로젝트 CI/CD 파이프라인 구축하기](https://bluayer.com/46)
 
