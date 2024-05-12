@@ -88,3 +88,9 @@
 
             // 부모테이블에 위와 같이 프로퍼티가 생긴다
         ```
+
+## kysely
+- link : [(승준님글)kysely란 무엇인가?](https://velog.io/@easdkr/Prisma-%EC%99%80-kysely-%ED%95%A8%EA%BB%98-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
+    - prisma의 extension라이브러리인데, 기존 prisma의 아래 단점들을 보완하기 위해 제공되기 시작했다.
+        - raw 쿼리 작성에 대해 힌트 제공이 없고, raw 쿼리 작성 이후 return type이 unknown으로 제공됨으로 인해 런타임 오류 가능성이 있다.
+        - prisma 기본 라이브러리에 lock, join 같은 메이저한 기능 지원이 없다.
