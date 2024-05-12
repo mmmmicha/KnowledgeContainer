@@ -23,6 +23,16 @@
 - Filter(callbackFn) 에 return 값으로 비교문이 아닌 대입문을 실수로 넣었는데 동작했던 건에 대하여..
 - ```array.flat```을 사용하면 2차원배열을 1차원배열로 플랫화할 수 있다.
 - link : [flatMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
+    - 기존 `Array.prototype.map(callback)`은 callback을 실행하면서 얻은 결과를 item으로 새로운 배열을 반환한다.
+    - 반면 `Array.prototype.flatMap(callback)`은 위와 비슷하게 callback을 실행하면서 얻은 결과를 item으로 하는데 이를 새로운 배열로 반환할 때 item이 nested array라면 이 layer를 -1하여 flat하게 하고 반환한다.
+    ```cmd
+    > const a = [1, [2], [[3]], [[[4]]]];
+    undefined
+    > a
+    [ 1, [ 2 ], [ [ 3 ] ], [ [ [Array] ] ] ]
+    > a.flatMap((a) => a)
+    [ 1, 2, [ 3 ], [ [ 4 ] ] ]
+    ```
 - Array.prototype.push(...Array)
     위 방법을 사용하면 Array의 아이템들이 플랫하게 전부 푸쉬됨
 
