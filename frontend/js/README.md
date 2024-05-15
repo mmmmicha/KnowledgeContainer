@@ -39,6 +39,9 @@
 ## Set
 - link : [Set to Array](https://hianna.tistory.com/421)
 
+## weakMap
+- link : [WeakMap이란?](https://ko.javascript.info/weakmap-weakset)
+
 ## Web api
 - link : [event.preventDefault()](https://week-book.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-preventDefault-%EC%A0%95%EB%A6%AC)
 - link : [Window.localStorage](https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage)
@@ -71,5 +74,19 @@
         - `Object.assign`을 통해서 대표하는 객체는 새로운 주소값을 할당받지만 내부 중첩객체는 해당 객체의 주소값이 얕은복사 취급된다.(예시는 위 ref에 잘 나와있다)
     - 따라서 depth 2 이상의 중첩객체를 복제하고 싶은 경우에는 `깊은 복사`를 해야하고 lodash의 `_.cloneDeep`을 이용하면 된다.
 
+## 상속
+- `constructor`가 정의되어 있는 클래스를 `extends`하는 경우에 자식 클래스에서 `constructor`를 따로 정의하지 않았다고 하더라도 부모의 `constructor`를 만족하는 매개변수를 생성함수에 넘겨주어야만 한다.
+- ex)
+    ```ts
+    class Test {
+        constructor(
+            private readonly value1: number,
+        ) {}
+    }
+
+    class Child extends Test {}
+
+    const c = new Child(1);
+    ```
+
 ## TO DO
-- weakMap이 뭔데?
