@@ -29,6 +29,9 @@
 ## Set
 - link : [Set to Array](https://hianna.tistory.com/421)
 
+## weakMap
+- link : [WeakMap이란?](https://ko.javascript.info/weakmap-weakset)
+
 ## Web api
 - link : [event.preventDefault()](https://week-book.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-preventDefault-%EC%A0%95%EB%A6%AC)
 - link : [Window.localStorage](https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage)
@@ -77,4 +80,3 @@
     ```
 
 ## TO DO
-- weakMap이 뭔데?
