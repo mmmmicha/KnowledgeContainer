@@ -1,6 +1,19 @@
 # Test
 ## Jest
 ## mock
+- `jest.mock(path, factory: () => any, option?)`
+    - 파일 내 있는 메서드들을 대거 mocking할 때 사용한다.
+    ```ts
+    // test.ts
+    export const add = (a: number, b: number) => a + b;
+    // something.spec.ts
+    import * as addmodule from './test'
+    const mockAddModule = {
+        add: jest.fn(),
+    }
+    jest.mock('./test', () => mockAddModule);
+    mockAddModule.add.mockResolvedValueOnce(null);
+    ```
 - `jest.spyOn(object, method)`
     - 특정 object내에 존재하는 method가 동작하는 걸 감시할 수 있다.
     - mocking과는 달리 실제로 동작하는 함수(목업에도 spy를 달 수는 있다)를 그저 감시하는 것 뿐이다.
