@@ -9,8 +9,8 @@
   - 디렉토리 정리
 - 2023.10.07 부터 다시 기록 시작
 
-
 ## backend
+
 - [nodejs](./backend/nodejs/README.md)
   - [npm](./backend/nodejs/npm/README.md)
   - [yarn](./backend/nodejs/yarn/README.md)
@@ -23,7 +23,9 @@
 - [serverless framework](./backend/serverless%20framework/README.md)
 - [prisma](./backend/prisma/README.md)
 - [test](./backend/test/README.md)
+
 ## db
+
 - [공통](./db/공통/README.md)
 - [postgres](./db/postgres/README.md)
 - [mongodb](./db/mongodb/README.md)
@@ -31,17 +33,23 @@
 - [redis](./db/redis/README.md)
 - [oracle](./db/oracle/README.md)
 - [bigdata](./db/bigdata/README.md)
+
 ## architecture
+
 - [공통](./architecture/공통/README.md)
 - [layered](./architecture/layered/README.md)
+
 ## devops
+
 - [aws](./devops/aws/README.md)
 - [docker](./devops/docker/README.md)
 - [k8s](./devops/k8s/README.md)
 - [linux](./devops/linux/README.md)
 - [kafka](./devops/kafka/README.md)
 - [git](./devops/git/README.md)
+
 ## frontend
+
 - [nextjs](./frontend/nextjs/README.md)
 - [reactjs](./frontend/reactjs/README.md)
 - [ts(typescript)](./frontend/ts/README.md)
@@ -49,11 +57,17 @@
 - [jquery](./frontend/jquery/README.md)
 - [bundler](./frontend/bundler/README.md)
 - [html](./frontend/html/README.md)
+
 ## [network](./network/README.md)
+
 ## [blockchain](./blockchain/README.md)
+
 - [hyperledger fabric](./blockchain/hyperledger%20fabric/README.md)
 - [web3](./blockchain/web3/README.md)
+
 ## [etc](./etc/README.md)
+
+- [vscode](./etc/vscode/README.md)
 - [oop](./etc/oop/README.md)
 - [article](./etc/article/README.md)
 - [openapi](./etc/openapi/README.md)
