@@ -67,6 +67,8 @@
 
 ## [design pattern](./design_pattern/README.md)
 
+## [REST_API](./rest_api/README.md)
+
 ## [etc](./etc/README.md)
 
 - [vscode](./etc/vscode/README.md)
