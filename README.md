@@ -67,6 +67,8 @@
 
 ## [design pattern](./design_pattern/README.md)
 
+- [facade](./design_pattern/facade/README.md)
+
 ## [REST_API](./rest_api/README.md)
 
 ## paradigm
