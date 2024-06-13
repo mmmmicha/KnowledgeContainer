@@ -6,6 +6,23 @@
   - `date`는 Object는 string으로 알아서 변환된다
   - `number`는 number로 값 전달이 가능하다
 
+### PathVariable 과 QueryStringParameter 의 차이
+
+- Path Variable
+  ```
+      localhost:8080/delete/123
+  ```
+  - 경로 상 parameter 를 넘기는 것
+  - delete에 주로 쓸 수 있음
+  - `required`조건인 값을 사용한다.
+- Query String Parameter
+  ```
+      localhost:8080/put?id=321&name=예제
+  ```
+  - ? 뒤에 넘기게 되는 parameter를 지칭함
+  - 주로 get방식에 쓰인다.
+  - `optional`조건인 값을 사용한다.
+
 ### Content-Type
 
 - multipart/form-data vs application/json
