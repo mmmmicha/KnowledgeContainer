@@ -65,6 +65,8 @@
 - [hyperledger fabric](./blockchain/hyperledger%20fabric/README.md)
 - [web3](./blockchain/web3/README.md)
 
+## [design pattern](./design_pattern/README.md)
+
 ## [etc](./etc/README.md)
 
 - [vscode](./etc/vscode/README.md)
@@ -74,7 +76,6 @@
 - [blog](./etc/blog/README.md)
 - [macbook](./etc/macbook/README.md)
 - [google api](./etc/googleapi/README.md)
-- [design pattern](./etc/design%20pattern/README.md)
 - [crypto](./etc/crypto/README.md)
 - [protocol](./etc/protocol/README.md)
 - [codingtest](./etc/codingtest/README.md)
