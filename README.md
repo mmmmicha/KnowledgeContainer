@@ -69,10 +69,13 @@
 
 ## [REST_API](./rest_api/README.md)
 
+## paradigm
+
+- [oop](./etc/oop/README.md)
+
 ## [etc](./etc/README.md)
 
 - [vscode](./etc/vscode/README.md)
-- [oop](./etc/oop/README.md)
 - [article](./etc/article/README.md)
 - [openapi](./etc/openapi/README.md)
 - [blog](./etc/blog/README.md)
