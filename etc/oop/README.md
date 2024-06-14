@@ -60,8 +60,40 @@
     ```
 
 - LSP(Liskov-Substitution Principle)
+
   - 리스코프 치환 원칙
-    - 자세히 공부 더 필요
+
+    - 상위 객체는 언제든 하위 객체로 치환될 수 있어야 한다.
+    - 핵심은 상위 객체가 선언해둔 메서드들의 책임이 하위 객체에서 변경되면 안된다는 것이다.
+    - 가령 부모 객체에서 선언된 메서드가 멤버 변수의 조합을 리턴하도록 설계됐는데 자식 객체에서 이를 오버라이드하면서 에러를 던지게 만든다면 이는 LSP를 위반하는 것이다.
+
+      ```ts
+      class Cat {
+        public speak() {
+          console.log("meow");
+        }
+      }
+
+      class BlackCat extends Cat {
+        public speak() {
+          console.log("black meow");
+        }
+      }
+
+      class Fish extends Cat {
+        public speak() {
+          throw new Error("Error!!");
+        }
+      }
+
+      // const cat: Cat = new Cat();
+      // cat.speak(); // 기대한대로 동작 O
+      // const cat: Cat = new BlackCat();
+      // cat.speak(); // 기대한대로 동작 O
+      const cat: Cat = new Fish();
+      cat.speak(); // 기대한대로 동작 X
+      ```
+
 - ISP(Interface-Segregation Principle)
   - 인터페이스 분리 원칙
     - 자세히 공부 더 필요
