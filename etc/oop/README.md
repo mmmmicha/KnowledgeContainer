@@ -95,8 +95,63 @@
       ```
 
 - ISP(Interface-Segregation Principle)
+
   - 인터페이스 분리 원칙
-    - 자세히 공부 더 필요
+
+    - 클라이언트들이 사용하지 않는 메서드들에 의존하게 만들어서는 안된다.
+    - 원형의 역할을 할 인터페이스는 책임을 분명히 하여 최소단위로 설계되어야 한다.
+    - 가령 수륙양용차는 보트의 성격과 차의 성격을 둘 다 지니게 되는데 이는 보트 인터페이스와 차 인터페이스를 둘 다 구현하면 될 일이다. 이 둘의 성격을 굳이 수륙양용차라는 인터페이스에 섞어놓는다면 이를 구현하는 차량 또는 보트 객체들이 `불필요한 메서드에 의존`하게 될 가능성이 높아진다.
+
+      ```ts
+      interface CarBoat {
+        // Car의 특징
+        public drive();
+        public turnLeft();
+        public turnRight();
+
+        // Boat의 특징
+        public steer();
+        public steerLeft();
+        public steerRight();
+      }
+
+      class Genesis implements CarBoat {
+        // Car의 특징
+        public drive();
+        public turnLeft();
+        public turnRight();
+
+        // 불필요하나 구현해야함
+        // Boat의 특징
+        // public steer();
+        // public steerLeft();
+        // public steerRight();
+      }
+      ```
+
 - DIP(Dependency-Inversion Principle)
+
   - 의존 역전 원칙
-    - 정리 추가적으로 필요
+
+    - 직접 의존관계에 있는 두 객체 사이에 `추상화 레이어`를 추가함으로써 두 객체의 의존 병향이 모두 추상화 레이어를 향하도록 만든다.
+
+      ```ts
+      // soldier가 sword를 직접 의존하고 있는 상황
+      class Sword {}
+      class Soldier {
+        private weapon: Sword;
+        public constructor(weapon: Sword) {
+          this.weapon = weapon;
+        }
+      }
+
+      // soldier가 추상화된 weapon을 직접 의존하고 sword도 weapon을 의존하게되면서 의존 방향이 역전
+      interface Weapon {}
+      class Sword implements Weapon {}
+      class Soldier {
+        private weapon: Weapon;
+        public constructor(weapon: Weapon) {
+          this.weapon = weapon;
+        }
+      }
+      ```
