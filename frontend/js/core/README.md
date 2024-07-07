@@ -23,3 +23,12 @@
   - 자바스크립트에서 행해지는 수학 연산은 `안전`하다고 볼 수 있습니다. 0으로 나눈다거나 숫자가 아닌 문자열을 숫자로 취급하는 등의 이례적인 연산이 자바스크립트에선 가능합니다.
     말이 안 되는 수학 연산을 하더라도 스크립트는 치명적인 에러를 내뿜으며 죽지 않습니다. NaN을 반환하며 연산이 종료될 뿐입니다.
     - 0으로 나누는 경우에도 숫자에 대한 런타임 에러가 발생하는 대신 `infinity(type number)`를 리턴한다.
+
+- [비교연산자](https://ko.javascript.info/comparison)
+
+  ![curious_situation](./comparison/curious_situation.png)
+  ![strict_equality_operator](./comparison/strict_equality_operator.png)
+
+  - 동등 연산자와 일치 연산자의 차이
+    - 동등 연산자는 형변환을 발생시킨다
+    - 일치 연산자는 형변환을 발생시키지 않는다.
