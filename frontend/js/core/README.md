@@ -32,3 +32,7 @@
   - 동등 연산자와 일치 연산자의 차이
     - 동등 연산자는 형변환을 발생시킨다
     - 일치 연산자는 형변환을 발생시키지 않는다.
+
+- [반복문](https://ko.javascript.info/while-for)
+
+  ![caution_for_using_continue_or_break](./iteration/caution_for_using_continue_or_break.png)
