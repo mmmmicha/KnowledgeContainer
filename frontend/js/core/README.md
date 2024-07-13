@@ -36,3 +36,7 @@
 - [반복문](https://ko.javascript.info/while-for)
 
   ![caution_for_using_continue_or_break](./iteration/caution_for_using_continue_or_break.png)
+
+- [함수](https://ko.javascript.info/function-basics)
+
+  ![args_and_params](./function/args_and_params.png)
