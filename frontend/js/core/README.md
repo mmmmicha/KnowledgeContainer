@@ -40,3 +40,4 @@
 - [함수](https://ko.javascript.info/function-basics)
 
   ![args_and_params](./function/args_and_params.png)
+  ![should_not_enter_the_line_to_between_return_and_value](./function/should_not_enter_the_line_to_between_return_and_value.png)
