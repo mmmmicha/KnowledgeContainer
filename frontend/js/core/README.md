@@ -45,3 +45,4 @@
 - [함수 표현식](https://ko.javascript.info/function-expressions)
 
   ![the_create_time_of_engine](./function-expressions/the_create_time_of_engine.png)
+  ![function_expressions_brief](./function-expressions/function_expressions_brief.png)
