@@ -46,3 +46,11 @@
 
   ![the_create_time_of_engine](./function-expressions/the_create_time_of_engine.png)
   ![function_expressions_brief](./function-expressions/function_expressions_brief.png)
+
+- [폴리필](https://ko.javascript.info/polyfills)
+
+  - [폴리필 vs 바벨](https://happysisyphe.tistory.com/49)
+
+- [객체](https://ko.javascript.info/object)
+
+  ![object](./object/object.jpeg)
