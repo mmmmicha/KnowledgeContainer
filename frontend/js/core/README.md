@@ -54,3 +54,8 @@
 - [객체](https://ko.javascript.info/object)
 
   ![object](./object/object.jpeg)
+
+- [new 연산자와 생성자 함수](https://ko.javascript.info/constructor-new)
+
+  ![생성자_함수_1](./new-function/생성자_함수_1.jpeg)
+  ![생성자_함수_2](./new-function/생성자_함수_2.jpeg)
