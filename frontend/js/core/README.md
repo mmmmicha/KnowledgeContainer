@@ -59,3 +59,7 @@
 
   ![생성자_함수_1](./new-function/생성자_함수_1.jpeg)
   ![생성자_함수_2](./new-function/생성자_함수_2.jpeg)
+
+- [옵셔녈 체이닝 '?.'](https://ko.javascript.info/optional-chaining)
+
+  ![옵셔녈_체이닝](./optional-chaining/optional-chaining.jpeg)
