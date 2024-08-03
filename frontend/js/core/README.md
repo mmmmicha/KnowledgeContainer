@@ -63,3 +63,7 @@
 - [옵셔녈 체이닝 '?.'](https://ko.javascript.info/optional-chaining)
 
   ![옵셔녈_체이닝](./optional-chaining/optional-chaining.jpeg)
+
+- [심볼형](https://ko.javascript.info/symbol)
+
+  ![심볼형](./symbol/symbol.jpeg)
